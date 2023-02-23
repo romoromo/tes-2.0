@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TfrxReport Version="4.5" DotMatrixReport="False" IniFile="\Software\Fast Reports" PreviewOptions.Buttons="4095" PreviewOptions.Zoom="1" PrintOptions.Printer="Default" PrintOptions.PrintOnSheet="0" ReportOptions.CreateDate="40646,4293042824" ReportOptions.Description.Text="" ReportOptions.LastChange="40653,8124792014" ScriptLanguage="PascalScript" ScriptText.Text="&#13;&#10;procedure MasterData1OnAfterCalcHeight(Sender: TfrxComponent);&#13;&#10;begin&#13;&#10;  l1.height := masterdata1.height;&#13;&#10;  l2.height := masterdata1.height;&#13;&#10;  l3.height := masterdata1.height;&#13;&#10;  l4.height := masterdata1.height;&#13;&#10;  l5.height := masterdata1.height;&#13;&#10;  l6.height := masterdata1.height;&#13;&#10;  l7.height := masterdata1.height;&#13;&#10;  l8.height := masterdata1.height;&#13;&#10;  l9.height := masterdata1.height;&#13;&#10;  l10.height := masterdata1.height;      &#13;&#10;end;&#13;&#10;&#13;&#10;begin&#13;&#10;&#13;&#10;end." StoreInDFM="False" PropData="044C656674025803546F7003890008446174617365747301010C1500000020446174615365744E616D653D226672646174612200010C1400000020446174615365744E616D653D226672766172220000095661726961626C65730100055374796C650100">
+  <TfrxDataPage Name="Data" Height="1000" Left="0" Top="0" Width="1000"/>
+  <TfrxReportPage Name="Page1" Font.Charset="0" Font.Color="0" Font.Height="-15" Font.Name="Courier New" Font.Style="0" PaperWidth="377,8" PaperHeight="279,4" PaperSize="39" LeftMargin="0" RightMargin="0" TopMargin="10" BottomMargin="10" ColumnWidth="0" ColumnPositions.Text="" HGuides.Text="" VGuides.Text="">
+    <TfrxReportTitle Name="ReportTitle1" Height="73,69295" Left="0" Top="18,89765" Width="1427,906434">
+      <TfrxMemoView Name="Memo2" Left="18,47248" Top="0,779530000000001" Width="260,78757" Height="64,25201" DisplayFormat.DecimalSeparator="," Text="DINAS PENDAPATAN&#13;&#10;KAB. HULU SUNGAI UTARA&#13;&#10;Jln. A.Yani No 04, Amuntai&#13;&#10;Tlp. (0527)61056-61788"/>
+      <TfrxMemoView Name="Memo3" Align="baCenter" Left="481,512122" Top="17,67718" Width="464,88219" Height="37,7953" DisplayFormat.DecimalSeparator="," HAlign="haCenter" Text="LAPORAN SKSB [uppercase(&#60;frvar.&#34;status&#34;&#62;)]&#13;&#10;Tanggal [frvar.&#34;tglawal&#34;] s.d [frvar.&#34;tglakhir&#34;]"/>
+    </TfrxReportTitle>
+    <TfrxMasterData Name="MasterData1" Font.Charset="0" Font.Color="0" Font.Height="-13" Font.Name="Courier New" Font.Style="0" Height="20,77953" Left="0" ParentFont="False" Top="253,22851" Width="1427,906434" OnAfterCalcHeight="MasterData1OnAfterCalcHeight" ColumnWidth="0" ColumnGap="0" DataSetName="frdata" RowCount="0" Stretched="True">
+      <TfrxMemoView Name="Line" Left="20,23624" Top="1" Width="26,45671" Height="18,89765" DisplayFormat.DecimalSeparator="," Text="[Line#]"/>
+      <TfrxLineView Name="l1" Left="11,89765" Top="0" Width="0" Height="18,89765" Frame.Typ="1"/>
+      <TfrxLineView Name="l2" Left="60,03154" Top="0,77953" Width="0" Height="18,89765" Frame.Typ="1"/>
+      <TfrxLineView Name="l3" Left="165,29932" Top="0" Width="0" Height="18,89765" Frame.Typ="1"/>
+      <TfrxLineView Name="l4" Left="277,3624" Top="0,77953" Width="0" Height="18,89765" Frame.Typ="1"/>
+      <TfrxLineView Name="l10" Left="1294,4261" Top="0" Width="0" Height="18,89765" Frame.Typ="1"/>
+      <TfrxLineView Name="l9" Left="1143,36302" Top="0" Width="0" Height="18,89765" Frame.Typ="1"/>
+      <TfrxLineView Name="l8" Left="786,52041" Top="0" Width="0" Height="18,89765" Frame.Typ="1"/>
+      <TfrxLineView Name="l7" Left="523,89827" Top="0" Width="0" Height="18,89765" Frame.Typ="1"/>
+      <TfrxLineView Name="l6" Left="394,27613" Top="1" Width="0" Height="18,89765" Frame.Typ="1"/>
+      <TfrxLineView Name="l5" Left="336,29159" Top="1" Width="0" Height="18,89765" Frame.Typ="1"/>
+      <TfrxMemoView Name="frdatatprosessksb_nosksb" Left="64" Top="0,99196" Width="97,25201" Height="18,89765" DataField="tprosessksb_nosksb" DataSetName="frdata" HAlign="haCenter" Text="[frdata.&#34;tprosessksb_nosksb&#34;]"/>
+      <TfrxMemoView Name="frdatatprosessksb_tglentry" Left="171" Top="0,99196" Width="100,96073" Height="18,89765" DataField="tprosessksb_tglentry" DataSetName="frdata" HAlign="haCenter" Text="[frdata.&#34;tprosessksb_tglentry&#34;]"/>
+      <TfrxMemoView Name="frdatatprosessksb_periodebulan" Left="337" Top="0,99196" Width="50,11812" Height="18,89765" DataField="tprosessksb_periodebulan" DataSetName="frdata" HAlign="haCenter" Text="[frdata.&#34;tprosessksb_periodebulan&#34;]"/>
+      <TfrxMemoView Name="frdatatprosesdaftar_npwprd" Left="399" Top="0,99196" Width="119,82684" Height="18,89765" DataField="tprosesdaftar_npwprd" DataSetName="frdata" HAlign="haCenter" Text="[frdata.&#34;tprosesdaftar_npwprd&#34;]"/>
+      <TfrxMemoView Name="frdatanama" Left="530" Top="0,99196" Width="249,44898" Height="18,89765" StretchMode="smActualHeight" DataField="nama" DataSetName="frdata" Text="[frdata.&#34;nama&#34;]"/>
+      <TfrxMemoView Name="frdataalamat" Left="794" Top="0,99196" Width="343,93723" Height="18,89765" StretchMode="smActualHeight" DataField="alamat" DataSetName="frdata" Text="[frdata.&#34;alamat&#34;]"/>
+      <TfrxMemoView Name="frdatatprosessksb_periode" Left="281" Top="0,99196" Width="51,77953" Height="18,89765" DataField="tprosessksb_periode" DataSetName="frdata" HAlign="haCenter" Text="[frdata.&#34;tprosessksb_periode&#34;]"/>
+      <TfrxMemoView Name="frdatarupiah" Left="1148" Top="0,99196" Width="134,37013" Height="18,89765" DataSetName="frdata" DisplayFormat.DecimalSeparator="," DisplayFormat.FormatStr="%2.n" DisplayFormat.Kind="fkNumeric" HAlign="haRight" Text="[frdata.&#34;rupiah&#34;]"/>
+    </TfrxMasterData>
+    <TfrxColumnFooter Name="ColumnFooter1" Height="3,77953" Left="0" Top="336,37817" Width="1427,906434">
+      <TfrxLineView Name="Line24" Left="11,89765" Top="0,77953" Width="1281,26067" Height="0" Frame.Typ="4"/>
+    </TfrxColumnFooter>
+    <TfrxReportSummary Name="ReportSummary1" Font.Charset="0" Font.Color="0" Font.Height="-13" Font.Name="Courier New" Font.Style="0" Height="29,70099" Left="0" ParentFont="False" Top="362,83488" Width="1427,906434">
+      <TfrxLineView Name="Line35" Left="10,89765" Top="19,89765" Width="1285,0402" Height="0" Frame.Typ="4"/>
+      <TfrxLineView Name="Line36" Left="12,89765" Top="1" Width="1281,26067" Height="0" Frame.Typ="4"/>
+      <TfrxLineView Name="Line5" Left="12" Top="1,16512" Width="0" Height="18,89765" Frame.Typ="1"/>
+      <TfrxLineView Name="Line14" Left="60,13389" Top="1,94465000000002" Width="0" Height="18,89765" Frame.Typ="1"/>
+      <TfrxLineView Name="Line15" Left="165,40167" Top="1,16512" Width="0" Height="18,89765" Frame.Typ="1"/>
+      <TfrxLineView Name="Line16" Left="277,46475" Top="1,94465" Width="0" Height="18,89765" Frame.Typ="1"/>
+      <TfrxLineView Name="Line17" Left="1294,52845" Top="1,16512" Width="0" Height="18,89765" Frame.Typ="1"/>
+      <TfrxLineView Name="Line18" Left="1143,46537" Top="1,16512" Width="0" Height="18,89765" Frame.Typ="1"/>
+      <TfrxLineView Name="Line19" Left="786,62276" Top="1,16512" Width="0" Height="18,89765" Frame.Typ="1"/>
+      <TfrxLineView Name="Line20" Left="524,00062" Top="1,16512" Width="0" Height="18,89765" Frame.Typ="1"/>
+      <TfrxLineView Name="Line21" Left="393,37848" Top="1,16512" Width="0" Height="18,89765" Frame.Typ="1"/>
+      <TfrxLineView Name="Line22" Left="336,39394" Top="2,16512" Width="0" Height="18,89765" Frame.Typ="1"/>
+      <TfrxMemoView Name="Memo12" Left="913" Top="1,16512" Width="130,69295" Height="18,89765" DisplayFormat.DecimalSeparator="," Text="Jumlah Setoran"/>
+      <TfrxMemoView Name="Memo13" Left="1148" Top="1,16512" Width="134,37013" Height="18,89765" DataSetName="frdata" DisplayFormat.DecimalSeparator="," DisplayFormat.FormatStr="%2.n" DisplayFormat.Kind="fkNumeric" HAlign="haRight" Text="[sum(&#60;frdata.&#34;rupiah&#34;&#62;)]"/>
+    </TfrxReportSummary>
+    <TfrxPageHeader Name="PageHeader1" Height="73,81107" Left="0" Top="117,16543" Width="1427,906434">
+      <TfrxMemoView Name="Memo6" Left="21,89765" Top="36,67718" Width="26,45671" Height="18,89765" DisplayFormat.DecimalSeparator="," Text="No."/>
+      <TfrxMemoView Name="Memo8" Left="81,14966" Top="37,67718" Width="71,81107" Height="18,89765" DisplayFormat.DecimalSeparator="," Text="No SKSB"/>
+      <TfrxLineView Name="Line1" Left="11,67718" Top="19,67718" Width="0" Height="52,91342" Frame.Typ="1"/>
+      <TfrxLineView Name="Line2" Left="60,03154" Top="20,67718" Width="0" Height="52,91342" Frame.Typ="1"/>
+      <TfrxLineView Name="Line3" Left="165,21274" Top="20,67718" Width="0" Height="52,91342" Frame.Typ="1"/>
+      <TfrxLineView Name="Line4" Left="523,59091" Top="20,67718" Width="0" Height="52,91342" Frame.Typ="1"/>
+      <TfrxLineView Name="Line6" Left="1294,4261" Top="20,67718" Width="0" Height="52,91342" Frame.Typ="1"/>
+      <TfrxLineView Name="Line7" Left="11,89765" Top="19,89765" Width="1281,26067" Height="0" Frame.Typ="4"/>
+      <TfrxLineView Name="Line8" Left="11,89765" Top="72,81107" Width="1281,26067" Height="0" Frame.Typ="4"/>
+      <TfrxMemoView Name="Page" Left="1174,0402" Top="1,77953" Width="102,04731" Height="18,89765" DisplayFormat.DecimalSeparator="," HAlign="haRight" Text="Hal: [Page#]"/>
+      <TfrxMemoView Name="Memo4" Left="181,09462" Top="37,7953" Width="83,14966" Height="18,89765" DisplayFormat.DecimalSeparator="," Text="Tgl Entri"/>
+      <TfrxLineView Name="Line10" Left="277,3624" Top="20,67718" Width="0" Height="52,91342" Frame.Typ="1"/>
+      <TfrxMemoView Name="Memo5" Left="280,70099" Top="37,7953" Width="49,13389" Height="18,89765" DisplayFormat.DecimalSeparator="," Text="Tahun"/>
+      <TfrxMemoView Name="Memo7" Left="339,52783" Top="37,7953" Width="49,13389" Height="18,89765" DisplayFormat.DecimalSeparator="," Text="Bulan"/>
+      <TfrxLineView Name="Line11" Left="336,29159" Top="20,89765" Width="0" Height="52,91342" Frame.Typ="1"/>
+      <TfrxLineView Name="Line12" Left="393,76407" Top="20,89765" Width="0" Height="52,91342" Frame.Typ="1"/>
+      <TfrxMemoView Name="Memo9" Left="424,22078" Top="37,7953" Width="56,69295" Height="18,89765" DisplayFormat.DecimalSeparator="," Text="NPWPRD"/>
+      <TfrxMemoView Name="Memo10" Left="639,07916" Top="37,7953" Width="56,69295" Height="18,89765" DisplayFormat.DecimalSeparator="," Text="Nama"/>
+      <TfrxLineView Name="Line9" Left="787,05566" Top="20,67718" Width="0" Height="52,91342" Frame.Typ="1"/>
+      <TfrxMemoView Name="Memo11" Left="941,35498" Top="37,7953" Width="56,69295" Height="18,89765" DisplayFormat.DecimalSeparator="," Text="Alamat"/>
+      <TfrxMemoView Name="Memo1" Left="1169,92208" Top="37,7953" Width="105,82684" Height="18,89765" DisplayFormat.DecimalSeparator="," Text="Jumlah (Rp)"/>
+      <TfrxLineView Name="Line13" Left="1142,68584" Top="20,89765" Width="0" Height="52,91342" Frame.Typ="1"/>
+    </TfrxPageHeader>
+  </TfrxReportPage>
+</TfrxReport>

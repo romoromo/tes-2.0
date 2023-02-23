@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TfrxReport Version="4.5" DotMatrixReport="True" IniFile="\Software\Fast Reports" PreviewOptions.Buttons="4095" PreviewOptions.Zoom="1" PrintOptions.Printer="Default" PrintOptions.PrintOnSheet="0" ReportOptions.CreateDate="41708,3777585185" ReportOptions.Description.Text="" ReportOptions.LastChange="41709,3407171065" ScriptLanguage="PascalScript" ScriptText.Text="begin&#13;&#10;&#13;&#10;end." PropData="044C65667403E80003546F7003050108446174617365747301010C3400000020446174615365743D22667278444244617461736574312220446174615365744E616D653D2266727844424461746173657431220000095661726961626C65730100055374796C650100">
+  <TfrxDataPage Name="Data" Height="1000" Left="0" Top="0" Width="1000"/>
+  <TfrxDMPPage Name="Page1" PaperWidth="215,899860564673" PaperHeight="278,87065322937" PaperSize="1" LeftMargin="2,53999835958439" RightMargin="2,53999835958439" TopMargin="4,49791376176403" BottomMargin="4,49791376176403" ColumnWidth="0" ColumnPositions.Text="" HGuides.Text="" VGuides.Text="" FontStyle="0">
+    <TfrxReportTitle Name="ReportTitle1" Height="153" Left="0" Top="17" Width="796,8">
+      <TfrxDMPMemoView Name="DMPMemo1" Left="9,6" Top="0" Width="240" Height="34" DisplayFormat.DecimalSeparator="," TruncOutboundText="False" Text="DINAS PAJAK DAERAH DAN &#13;&#10;PENGELOLAAN KEUANGAN"/>
+      <TfrxDMPMemoView Name="DMPMemo2" Left="297,6" Top="0" Width="192" Height="17" DisplayFormat.DecimalSeparator="," TruncOutboundText="False" Text="PAJAK (JENIS PAJAK)"/>
+      <TfrxDMPMemoView Name="DMPMemo3" Left="547,2" Top="0" Width="220,8" Height="17" DisplayFormat.DecimalSeparator="," TruncOutboundText="False" Text="TGL. : [(FormatDateTime('DD MM YYYY', Now))]"/>
+      <TfrxDMPLineView Name="DMPLine1" Left="4,8" Top="42,5" Width="787,2" Height="0"/>
+      <TfrxDMPMemoView Name="DMPMemo4" Left="9,6" Top="51" Width="124,8" Height="17" DisplayFormat.DecimalSeparator="," TruncOutboundText="False" Text="TAHUN : [frxDBDataset1.&#34;THP&#34;]"/>
+      <TfrxDMPMemoView Name="DMPMemo5" Left="9,6" Top="68" Width="336" Height="34" DisplayFormat.DecimalSeparator="," TruncOutboundText="False" Text="NAMA  : [frxDBDataset1.&#34;BNAMA&#34;]"/>
+      <TfrxDMPMemoView Name="DMPMemo6" Left="172,8" Top="51" Width="249,6" Height="17" DisplayFormat.DecimalSeparator="," TruncOutboundText="False" Text="NOPOK :  [frxDBDataset1.&#34;NOPOK&#34;]"/>
+      <TfrxDMPMemoView Name="DMPMemo7" Left="374,4" Top="68" Width="403,2" Height="34" DisplayFormat.DecimalSeparator="," TruncOutboundText="False" Text="ALAMAT  : [frxDBDataset1.&#34;BAL&#34;]"/>
+      <TfrxDMPMemoView Name="DMPMemo8" Left="9,6" Top="119" Width="28,8" Height="17" DisplayFormat.DecimalSeparator="," TruncOutboundText="False" Text="BLN"/>
+      <TfrxDMPMemoView Name="DMPMemo9" Left="48" Top="119" Width="48" Height="17" DisplayFormat.DecimalSeparator="," TruncOutboundText="False" Text="N.SKP"/>
+      <TfrxDMPMemoView Name="DMPMemo10" Left="105,6" Top="119" Width="105,6" Height="17" DisplayFormat.DecimalSeparator="," TruncOutboundText="False" Text="SKPD (Rp.)"/>
+      <TfrxDMPMemoView Name="DMPMemo11" Left="220,8" Top="119" Width="57,6" Height="17" DisplayFormat.DecimalSeparator="," TruncOutboundText="False" Text="Tg-Set"/>
+      <TfrxDMPMemoView Name="DMPMemo12" Left="288" Top="119" Width="115,2" Height="17" DisplayFormat.DecimalSeparator="," TruncOutboundText="False" Text="SSPD (Rp.)"/>
+      <TfrxDMPMemoView Name="DMPMemo13" Left="412,8" Top="119" Width="19,2" Height="17" DisplayFormat.DecimalSeparator="," TruncOutboundText="False" Text="BLN"/>
+      <TfrxDMPMemoView Name="DMPMemo14" Left="441,6" Top="119" Width="48" Height="17" DisplayFormat.DecimalSeparator="," TruncOutboundText="False" Text="N.SKP"/>
+      <TfrxDMPMemoView Name="DMPMemo15" Left="499,2" Top="119" Width="105,6" Height="17" DisplayFormat.DecimalSeparator="," TruncOutboundText="False" Text="SKPD (Rp.)"/>
+      <TfrxDMPMemoView Name="DMPMemo16" Left="614,4" Top="119" Width="57,6" Height="17" DisplayFormat.DecimalSeparator="," TruncOutboundText="False" Text="Tg-Set"/>
+      <TfrxDMPMemoView Name="DMPMemo17" Left="681,6" Top="119" Width="115,2" Height="17" DisplayFormat.DecimalSeparator="," HAlign="haRight" TruncOutboundText="False" Text="SSPD (Rp.)"/>
+      <TfrxDMPMemoView Name="DMPMemo18" Left="9,6" Top="136" Width="787,2" Height="17" DisplayFormat.DecimalSeparator="," TruncOutboundText="False" Text="---------------------------------------------------------------------------------------------------"/>
+    </TfrxReportTitle>
+    <TfrxMasterData Name="MasterData1" Height="17" Left="0" Top="204" Width="796,8" ColumnWidth="0" ColumnGap="0" DataSet="frxDBDataset1" DataSetName="frxDBDataset1" RowCount="0">
+      <TfrxDMPMemoView Name="DMPMemo19" Left="9,6" Top="0" Width="28,8" Height="17" DisplayFormat.DecimalSeparator="," TruncOutboundText="False" Text="[frxDBDataset1.&#34;BLP&#34;]"/>
+      <TfrxDMPMemoView Name="DMPMemo20" Left="48" Top="0" Width="48" Height="17" DisplayFormat.DecimalSeparator="," TruncOutboundText="False" Text="[frxDBDataset1.&#34;NOUSKP&#34;]"/>
+      <TfrxDMPMemoView Name="DMPMemo21" Left="105,6" Top="0" Width="105,6" Height="17" DisplayFormat.DecimalSeparator="," DisplayFormat.FormatStr="%2.n" DisplayFormat.Kind="fkNumeric" HAlign="haRight" TruncOutboundText="False" Text="[frxDBDataset1.&#34;PAJAK&#34;]"/>
+      <TfrxDMPMemoView Name="DMPMemo22" Left="220,8" Top="0" Width="57,6" Height="17" DisplayFormat.DecimalSeparator="," TruncOutboundText="False" Text="[frxDBDataset1.&#34;THSSP&#34;]/[frxDBDataset1.&#34;BLSSP&#34;]/[frxDBDataset1.&#34;HRSSP&#34;]"/>
+      <TfrxDMPMemoView Name="DMPMemo23" Left="288" Top="0" Width="115,2" Height="17" DisplayFormat.DecimalSeparator="," DisplayFormat.FormatStr="%2.n" DisplayFormat.Kind="fkNumeric" HAlign="haRight" TruncOutboundText="False" Text="[frxDBDataset1.&#34;RPSSP&#34;]"/>
+      <TfrxDMPMemoView Name="DMPMemo24" Left="412,8" Top="0" Width="19,2" Height="17" DisplayFormat.DecimalSeparator="," TruncOutboundText="False" Text="[frxDBDataset1.&#34;BLKB&#34;]"/>
+      <TfrxDMPMemoView Name="DMPMemo25" Left="441,6" Top="0" Width="48" Height="17" DisplayFormat.DecimalSeparator="," TruncOutboundText="False" Text="[frxDBDataset1.&#34;NOKB&#34;]"/>
+      <TfrxDMPMemoView Name="DMPMemo26" Left="499,2" Top="0" Width="105,6" Height="17" DisplayFormat.DecimalSeparator="," DisplayFormat.FormatStr="%2.n" DisplayFormat.Kind="fkNumeric" HAlign="haRight" TruncOutboundText="False" Text="[frxDBDataset1.&#34;RPKB&#34;]"/>
+      <TfrxDMPMemoView Name="DMPMemo27" Left="614,4" Top="0" Width="57,6" Height="17" DisplayFormat.DecimalSeparator="," TruncOutboundText="False" Text="[frxDBDataset1.&#34;THKB&#34;]/[frxDBDataset1.&#34;BLKB&#34;]/[frxDBDataset1.&#34;HRKB&#34;]"/>
+      <TfrxDMPMemoView Name="DMPMemo28" Left="681,6" Top="0" Width="115,2" Height="17" DisplayFormat.DecimalSeparator="," HAlign="haRight" TruncOutboundText="False" Text="[frxDBDataset1.&#34;JUMLAH&#34;]"/>
+    </TfrxMasterData>
+    <TfrxReportSummary Name="ReportSummary1" Height="102" Left="0" Top="255" Width="796,8">
+      <TfrxDMPMemoView Name="DMPMemo29" Left="9,6" Top="0" Width="787,2" Height="17" DisplayFormat.DecimalSeparator="," TruncOutboundText="False" Text="---------------------------------------------------------------------------------------------------"/>
+      <TfrxDMPMemoView Name="DMPMemo30" Left="211,2" Top="17" Width="76,8" Height="17" DisplayFormat.DecimalSeparator="," TruncOutboundText="False" Text="J-SKPD :"/>
+      <TfrxDMPMemoView Name="DMPMemo31" Left="211,2" Top="34" Width="76,8" Height="17" DisplayFormat.DecimalSeparator="," TruncOutboundText="False" Text="J-SSPD :"/>
+      <TfrxDMPMemoView Name="DMPMemo32" Left="489,6" Top="17" Width="96" Height="17" DisplayFormat.DecimalSeparator="," TruncOutboundText="False" Text="J-SKPDKB :"/>
+      <TfrxDMPMemoView Name="DMPMemo33" Left="489,6" Top="34" Width="96" Height="17" DisplayFormat.DecimalSeparator="," TruncOutboundText="False" Text="J-SSKB   :"/>
+      <TfrxDMPLineView Name="DMPLine2" Left="196,8" Top="59,5" Width="124,8" Height="0"/>
+      <TfrxDMPLineView Name="DMPLine3" Left="484,8" Top="59,5" Width="115,2" Height="0"/>
+      <TfrxDMPMemoView Name="DMPMemo34" Left="182,4" Top="68" Width="105,6" Height="17" DisplayFormat.DecimalSeparator="," TruncOutboundText="False" Text="TUNGGAKAN :"/>
+      <TfrxDMPMemoView Name="DMPMemo35" Left="480" Top="68" Width="105,6" Height="17" DisplayFormat.DecimalSeparator="," TruncOutboundText="False" Text="TUNGGAKAN :"/>
+      <TfrxDMPMemoView Name="DMPMemo36" Left="297,6" Top="17" Width="163,2" Height="17" DisplayFormat.DecimalSeparator="," DisplayFormat.FormatStr="%2.n" DisplayFormat.Kind="fkNumeric" HAlign="haRight" TruncOutboundText="False" Text=" [SUM(&#60;frxDBDataset1.&#34;PAJAK&#34;&#62;,MasterData1)]"/>
+      <TfrxDMPMemoView Name="DMPMemo37" Left="297,6" Top="34" Width="163,2" Height="17" DisplayFormat.DecimalSeparator="," DisplayFormat.FormatStr="%2.n" DisplayFormat.Kind="fkNumeric" HAlign="haRight" TruncOutboundText="False" Text=" [SUM(&#60;frxDBDataset1.&#34;RPSSP&#34;&#62;,MasterData1)]"/>
+      <TfrxDMPMemoView Name="DMPMemo38" Left="297,6" Top="68" Width="163,2" Height="17" DisplayFormat.DecimalSeparator="," DisplayFormat.FormatStr="%2.n" DisplayFormat.Kind="fkNumeric" HAlign="haRight" TruncOutboundText="False" Text=" [&#60;SUM(&#60;frxDBDataset1.&#34;PAJAK&#34;&#62;,MasterData1)&#62;-&#60;SUM(&#60;frxDBDataset1.&#34;RPSSP&#34;&#62;,MasterData1)&#62;]"/>
+      <TfrxDMPMemoView Name="frxDBDataset1JUMLAH" Left="595,2" Top="34" Width="153,6" Height="17" DataField="JUMLAH" DataSet="frxDBDataset1" DataSetName="frxDBDataset1" DisplayFormat.DecimalSeparator="," DisplayFormat.FormatStr="%2.n" DisplayFormat.Kind="fkNumeric" HAlign="haRight" TruncOutboundText="False" Text="[frxDBDataset1.&#34;JUMLAH&#34;]"/>
+      <TfrxDMPMemoView Name="DMPMemo39" Left="595,2" Top="17" Width="153,6" Height="17" DisplayFormat.DecimalSeparator="," DisplayFormat.FormatStr="%2.n" DisplayFormat.Kind="fkNumeric" HAlign="haRight" TruncOutboundText="False" Text="[frxDBDataset1.&#34;RPKB&#34;]"/>
+      <TfrxDMPMemoView Name="DMPMemo40" Left="595,2" Top="68" Width="153,6" Height="17" DisplayFormat.DecimalSeparator="," DisplayFormat.FormatStr="%2.n" DisplayFormat.Kind="fkNumeric" HAlign="haRight" TruncOutboundText="False" Text=" [&#60;SUM(&#60;frxDBDataset1.&#34;rpkb&#34;&#62;,MasterData1)&#62;-&#60;SUM(&#60;frxDBDataset1.&#34;jumlah&#34;&#62;,MasterData1)&#62;]"/>
+    </TfrxReportSummary>
+  </TfrxDMPPage>
+</TfrxReport>

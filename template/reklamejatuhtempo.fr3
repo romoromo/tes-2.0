@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TfrxReport Version="4.5" DotMatrixReport="True" IniFile="\Software\Fast Reports" PreviewOptions.Buttons="4095" PreviewOptions.Zoom="1" PrintOptions.Printer="Default" PrintOptions.PrintOnSheet="0" ReportOptions.CreateDate="41507,5479426852" ReportOptions.Description.Text="" ReportOptions.LastChange="41507,6302838426" ScriptLanguage="PascalScript" ScriptText.Text="begin&#13;&#10;&#13;&#10;end." PropData="044C65667403E80003546F700305010844617461736574730100095661726961626C65730100055374796C650100">
+  <TfrxDataPage Name="Data" Height="1000" Left="0" Top="0" Width="1000"/>
+  <TfrxDMPPage Name="Page1" PaperWidth="340,359780184309" PaperHeight="296,862308276426" PaperSize="256" LeftMargin="2,53999835958439" RightMargin="2,53999835958439" TopMargin="4,49791376176403" BottomMargin="4,49791376176403" ColumnWidth="0" ColumnPositions.Text="" HGuides.Text="" VGuides.Text="" FontStyle="0">
+    <TfrxPageHeader Name="PageHeader1" Height="153" Left="0" Top="17" Width="1267,2">
+      <TfrxDMPMemoView Name="DMPMemo2" Left="0" Top="34" Width="211,2" Height="34" DisplayFormat.DecimalSeparator="," HAlign="haCenter" TruncOutboundText="False" Text="DINAS PAJAK DAERAH DAN&#13;&#10;PENGELOLAAN KEUANGAN"/>
+      <TfrxDMPMemoView Name="DMPMemo3" Left="499,2" Top="34" Width="432" Height="34" DisplayFormat.DecimalSeparator="," TruncOutboundText="False" Text="DAFTAR KARTU DATA&#13;&#10;TANGGAL JATUH TEMPO"/>
+      <TfrxDMPMemoView Name="DMPMemo4" Left="1190,4" Top="34" Width="96" Height="17" DisplayFormat.DecimalSeparator="," TruncOutboundText="False" Text="HAL:  1"/>
+      <TfrxDMPMemoView Name="DMPMemo6" Left="0" Top="102" Width="28,8" Height="17" DisplayFormat.DecimalSeparator="," TruncOutboundText="False" Text="NO."/>
+      <TfrxDMPMemoView Name="DMPMemo7" Left="48" Top="102" Width="57,6" Height="17" DisplayFormat.DecimalSeparator="," TruncOutboundText="False" Text="NO.POK"/>
+      <TfrxDMPMemoView Name="DMPMemo8" Left="220,8" Top="102" Width="240" Height="17" DisplayFormat.DecimalSeparator="," TruncOutboundText="False" Text="NAMA WAJIB PAJAK"/>
+      <TfrxDMPMemoView Name="DMPMemo9" Left="566,4" Top="102" Width="249,6" Height="17" DisplayFormat.DecimalSeparator="," TruncOutboundText="False" Text="LOKASI PEMASANGAN"/>
+      <TfrxDMPMemoView Name="DMPMemo5" Left="0" Top="68" Width="1593,6" Height="17" DisplayFormat.DecimalSeparator="," TruncOutboundText="False" Text="------------------------------------------------------------------------------------------------------------------------------------"/>
+      <TfrxDMPMemoView Name="DMPMemo1" Left="0" Top="17" Width="1593,6" Height="17" DisplayFormat.DecimalSeparator="," TruncOutboundText="False" Text="------------------------------------------------------------------------------------------------------------------------------------"/>
+      <TfrxDMPMemoView Name="DMPMemo24" Left="0" Top="136" Width="1593,6" Height="17" DisplayFormat.DecimalSeparator="," TruncOutboundText="False" Text="------------------------------------------------------------------------------------------------------------------------------------"/>
+      <TfrxDMPMemoView Name="frxDBvDatasetJUDUL" Left="672" Top="34" Width="220,8" Height="17" DataField="JUDUL" DataSet="frxDBvDataset" DataSetName="frxDBvDataset" TruncOutboundText="False" Text="[frxDBvDataset.&#34;JUDUL&#34;]"/>
+      <TfrxDMPMemoView Name="frxDBvDatasetbulan" Left="691,2" Top="51" Width="240" Height="17" DataField="bulan" DataSet="frxDBvDataset" DataSetName="frxDBvDataset" TruncOutboundText="False" Text="[frxDBvDataset.&#34;bulan&#34;]"/>
+      <TfrxDMPMemoView Name="DMPMemo10" Left="835,2" Top="102" Width="19,2" Height="17" DisplayFormat.DecimalSeparator="," TruncOutboundText="False" Text="TH"/>
+      <TfrxDMPMemoView Name="DMPMemo11" Left="873,6" Top="102" Width="105,6" Height="17" DisplayFormat.DecimalSeparator="," TruncOutboundText="False" Text="JNS-LOKASI"/>
+      <TfrxDMPMemoView Name="DMPMemo12" Left="998,4" Top="102" Width="105,6" Height="17" DisplayFormat.DecimalSeparator="," TruncOutboundText="False" Text="TGL MULAI"/>
+      <TfrxDMPMemoView Name="DMPMemo13" Left="1123,2" Top="102" Width="105,6" Height="17" DisplayFormat.DecimalSeparator="," TruncOutboundText="False" Text="TGL AKHIR"/>
+    </TfrxPageHeader>
+    <TfrxMasterData Name="MasterData1" Height="34" Left="0" Top="204" Width="1267,2" ColumnWidth="0" ColumnGap="0" DataSet="frxDBDataset1" DataSetName="frxDBDataset1" RowCount="0">
+      <TfrxDMPMemoView Name="frxDBDataset1NOPOK" Left="48" Top="0" Width="153,6" Height="17" DataSet="frxDBDataset1" DataSetName="frxDBDataset1" DisplayFormat.DecimalSeparator="," TruncOutboundText="False" Text="[frxDBDataset1.&#34;GOL&#34;].[trim(isikiri(&#60;frxDBDataset1.&#34;NOPOK&#34;&#62;,7))].[trim(isikiri(&#60;frxDBDataset1.&#34;KEL&#34;&#62;,2))].[trim(isikiri(&#60;frxDBDataset1.&#34;KEC&#34;&#62;,2))]"/>
+      <TfrxDMPMemoView Name="DMPMemo31" Left="0" Top="0" Width="28,8" Height="17" DisplayFormat.DecimalSeparator="," TruncOutboundText="False" Text="[(&#60;Line#&#62;)]"/>
+      <TfrxDMPMemoView Name="frxDBDataset1BNAMA" Left="220,8" Top="0" Width="240" Height="17" DataField="BNAMA" DataSet="frxDBDataset1" DataSetName="frxDBDataset1" TruncOutboundText="False" Text="[frxDBDataset1.&#34;BNAMA&#34;]"/>
+      <TfrxDMPMemoView Name="frxDBDataset1KTRE1" Left="220,8" Top="17" Width="240" Height="17" DataField="KTRE1" DataSet="frxDBDataset1" DataSetName="frxDBDataset1" TruncOutboundText="False" Text="[frxDBDataset1.&#34;KTRE1&#34;]"/>
+      <TfrxDMPMemoView Name="frxDBDataset1KTRE2" Left="566,4" Top="0" Width="249,6" Height="17" DataField="KTRE2" DataSet="frxDBDataset1" DataSetName="frxDBDataset1" TruncOutboundText="False" Text="[frxDBDataset1.&#34;KTRE2&#34;]"/>
+    </TfrxMasterData>
+    <TfrxFooter Name="Footer1" Height="306" Left="0" Top="255" Width="1267,2">
+      <TfrxDMPMemoView Name="DMPMemo26" Left="403,2" Top="17" Width="48" Height="17" DisplayFormat.DecimalSeparator="," TruncOutboundText="False" Text="TOTAL"/>
+      <TfrxDMPMemoView Name="DMPMemo27" Left="86,4" Top="85" Width="297,6" Height="85" DisplayFormat.DecimalSeparator="," TruncOutboundText="False" Text="MENGETAHUI :&#13;&#10;KA.SIE.PENDAFTARAN &#38; PENDATAAN"/>
+      <TfrxDMPMemoView Name="DMPMemo28" Left="86,4" Top="238" Width="268,8" Height="51" DisplayFormat.DecimalSeparator="," TruncOutboundText="False" Text="RM KISBIYANTORO SH&#13;&#10;---------------------------&#13;&#10;NIP. 197105021992031009"/>
+      <TfrxDMPMemoView Name="DMPMemo29" Left="652,8" Top="102" Width="96" Height="34" DisplayFormat.DecimalSeparator="," TruncOutboundText="False" Text="TANGGAL :&#13;&#10;PETUGAS :"/>
+      <TfrxDMPMemoView Name="DMPMemo30" Left="652,8" Top="238" Width="211,2" Height="51" DisplayFormat.DecimalSeparator="," TruncOutboundText="False" Text="TUPARMAN&#13;&#10;--------------------&#13;&#10;NIP.196903251990031003"/>
+      <TfrxDMPMemoView Name="DMPMemo25" Left="0" Top="0" Width="1593,6" Height="17" DisplayFormat.DecimalSeparator="," TruncOutboundText="False" Text="------------------------------------------------------------------------------------------------------------------------------------"/>
+      <TfrxDMPMemoView Name="DMPMemo32" Left="508,8" Top="17" Width="96" Height="17" DisplayFormat.DecimalSeparator="," TruncOutboundText="False" Text="[COUNT(MasterData1)]"/>
+      <TfrxDMPMemoView Name="DMPMemo34" Left="1161,6" Top="17" Width="96" Height="17" DisplayFormat.DecimalSeparator="." DisplayFormat.FormatStr="%2.n" DisplayFormat.Kind="fkNumeric" HAlign="haRight" TruncOutboundText="False" Text="[SUM(&#60;frxDBDataset1.&#34;PAJAK&#34;&#62;,MasterData1)]"/>
+    </TfrxFooter>
+  </TfrxDMPPage>
+</TfrxReport>

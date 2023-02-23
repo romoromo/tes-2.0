@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TfrxReport Version="4.5" DotMatrixReport="True" IniFile="\Software\Fast Reports" PreviewOptions.Buttons="4095" PreviewOptions.Zoom="1" PrintOptions.Printer="Default" PrintOptions.PrintOnSheet="0" ReportOptions.CreateDate="41304,5689967824" ReportOptions.Description.Text="" ReportOptions.LastChange="41305,4349927083" ScriptLanguage="PascalScript" ScriptText.Text="begin&#13;&#10;&#13;&#10;end." PropData="044C65667403680103546F70024D08446174617365747301010C3400000020446174615365743D22667278444244617461736574312220446174615365744E616D653D2266727844424461746173657431220000095661726961626C65730100055374796C650100">
+  <TfrxDataPage Name="Data" Height="1000" Left="0" Top="0" Width="1000"/>
+  <TfrxDMPPage Name="Page1" PaperWidth="149,859903215479" PaperHeight="224,895688088201" PaperSize="256" LeftMargin="2,53999835958439" RightMargin="2,53999835958439" TopMargin="4,49791376176403" BottomMargin="4,49791376176403" ColumnWidth="0" ColumnPositions.Text="" HGuides.Text="" VGuides.Text="" FontStyle="0">
+    <TfrxPageHeader Name="PageHeader1" Height="221" Left="0" Top="17" Width="547,2">
+      <TfrxDMPMemoView Name="DMPMemo2" Left="134,4" Top="0" Width="278,4" Height="51" DisplayFormat.DecimalSeparator="," HAlign="haCenter" TruncOutboundText="False" Text="BUKU PEMBANTU&#13;&#10;PER RINCIAN  OBYEK PENERIMAAN"/>
+      <TfrxDMPMemoView Name="DMPMemo1" Left="0" Top="170" Width="547,2" Height="34" DisplayFormat.DecimalSeparator="," TruncOutboundText="False" Text="---------------------------------------------------------"/>
+      <TfrxDMPMemoView Name="DMPMemo3" Left="0" Top="51" Width="499,2" Height="119" DisplayFormat.DecimalSeparator="," TruncOutboundText="False" Text="SKPD            : DINAS PAJAK DAERAH DAN PENGELOLAAN&#13;&#10;                  KEUANGAN KOTA YOGYAKARTA&#13;&#10;KODE REKENING   : 4.1.1.01&#13;&#10;NAMA REKENING   : PAJAK HOTEL&#13;&#10;JUMLAH ANGGARAN : RP.&#13;&#10;TAHUN ANGGARAN  : 2012&#13;&#10;BULAN           : DESEMBER"/>
+      <TfrxDMPMemoView Name="DMPMemo4" Left="0" Top="204" Width="547,2" Height="34" DisplayFormat.DecimalSeparator="," TruncOutboundText="False" Text="---------------------------------------------------------"/>
+      <TfrxDMPMemoView Name="DMPMemo5" Left="0" Top="187" Width="48" Height="17" DisplayFormat.DecimalSeparator="," TruncOutboundText="False" Text="URUT."/>
+      <TfrxDMPMemoView Name="DMPMemo6" Left="57,6" Top="187" Width="76,8" Height="17" DisplayFormat.DecimalSeparator="," TruncOutboundText="False" Text="TG.SETOR"/>
+      <TfrxDMPMemoView Name="DMPMemo7" Left="172,8" Top="187" Width="76,8" Height="17" DisplayFormat.DecimalSeparator="," TruncOutboundText="False" Text="NO.BUKTI"/>
+      <TfrxDMPMemoView Name="DMPMemo8" Left="259,2" Top="187" Width="19,2" Height="17" DisplayFormat.DecimalSeparator="," TruncOutboundText="False" Text="TH"/>
+      <TfrxDMPMemoView Name="DMPMemo9" Left="288" Top="187" Width="19,2" Height="17" DisplayFormat.DecimalSeparator="," TruncOutboundText="False" Text="BL"/>
+      <TfrxDMPMemoView Name="DMPMemo10" Left="364,8" Top="187" Width="19,2" Height="17" DisplayFormat.DecimalSeparator="," TruncOutboundText="False" Text="KE"/>
+      <TfrxDMPMemoView Name="DMPMemo11" Left="451,2" Top="187" Width="96" Height="17" DisplayFormat.DecimalSeparator="," TruncOutboundText="False" Text="PENERIMAAN"/>
+    </TfrxPageHeader>
+    <TfrxMasterData Name="MasterData1" Height="17" Left="0" Top="272" Width="547,2" ColumnWidth="0" ColumnGap="0" DataSet="frxDBDataset1" DataSetName="frxDBDataset1" RowCount="0">
+      <TfrxDMPMemoView Name="frxDBDataset1THSET" Left="57,6" Top="0" Width="76,8" Height="17" DataSet="frxDBDataset1" DataSetName="frxDBDataset1" DisplayFormat.DecimalSeparator="," TruncOutboundText="False" Text="[frxDBDataset1.&#34;HRSET&#34;]/[frxDBDataset1.&#34;BLSET&#34;]/[frxDBDataset1.&#34;THSET&#34;]"/>
+      <TfrxDMPMemoView Name="DMPMemo24" Left="9,6" Top="0" Width="38,4" Height="17" DisplayFormat.DecimalSeparator="," TruncOutboundText="False" Text="[(&#60;Line#&#62;)]"/>
+      <TfrxDMPMemoView Name="frxDBDataset1THP" Left="259,2" Top="0" Width="28,8" Height="17" DataField="THP" DataSet="frxDBDataset1" DataSetName="frxDBDataset1" TruncOutboundText="False" Text="[frxDBDataset1.&#34;THP&#34;]"/>
+      <TfrxDMPMemoView Name="frxDBDataset1BLP" Left="288" Top="0" Width="38,4" Height="17" DataField="BLP" DataSet="frxDBDataset1" DataSetName="frxDBDataset1" TruncOutboundText="False" Text="[frxDBDataset1.&#34;BLP&#34;]"/>
+      <TfrxDMPMemoView Name="frxDBDataset1NOSSP" Left="172,8" Top="0" Width="76,8" Height="17" DataField="NOSSP" DataSet="frxDBDataset1" DataSetName="frxDBDataset1" TruncOutboundText="False" Text="[frxDBDataset1.&#34;NOSSP&#34;]"/>
+      <TfrxDMPMemoView Name="frxDBDataset1RPSet" Left="441,6" Top="0" Width="105,6" Height="17" DataField="RPSet" DataSet="frxDBDataset1" DataSetName="frxDBDataset1" DisplayFormat.DecimalSeparator="." DisplayFormat.FormatStr="%2.n" DisplayFormat.Kind="fkNumeric" HAlign="haRight" TruncOutboundText="False" Text="[frxDBDataset1.&#34;RPSet&#34;]"/>
+    </TfrxMasterData>
+    <TfrxFooter Name="Footer1" Height="272" Left="0" Top="306" Width="547,2">
+      <TfrxDMPMemoView Name="DMPMemo12" Left="0" Top="0" Width="547,2" Height="17" DisplayFormat.DecimalSeparator="," TruncOutboundText="False" Text="---------------------------------------------------------"/>
+      <TfrxDMPMemoView Name="DMPMemo13" Left="153,6" Top="17" Width="192" Height="51" DisplayFormat.DecimalSeparator="," TruncOutboundText="False" Text="TOTAL BULAN INI    :&#13;&#10;TOTAL S/D BLN LALU :&#13;&#10;TOTAL S/D BLN INI  :"/>
+      <TfrxDMPMemoView Name="DMPMemo14" Left="0" Top="102" Width="115,2" Height="17" DisplayFormat.DecimalSeparator="," TruncOutboundText="False" Text="MENGETAHUI :"/>
+      <TfrxDMPMemoView Name="DMPMemo15" Left="0" Top="119" Width="163,2" Height="17" DisplayFormat.DecimalSeparator="," TruncOutboundText="False" Text="PENGGUNA ANGGARAN"/>
+      <TfrxDMPMemoView Name="DMPMemo16" Left="0" Top="204" Width="220,8" Height="17" DisplayFormat.DecimalSeparator="," TruncOutboundText="False" Text="DRS.KADRI RENGGONO,M.SI"/>
+      <TfrxDMPMemoView Name="DMPMemo17" Left="0" Top="221" Width="240" Height="17" DisplayFormat.DecimalSeparator="," TruncOutboundText="False" Text="-------------------------"/>
+      <TfrxDMPMemoView Name="DMPMemo19" Left="278,4" Top="102" Width="268,8" Height="17" DisplayFormat.DecimalSeparator="," TruncOutboundText="False" Text="YOGYAKARTA,             2013"/>
+      <TfrxDMPMemoView Name="DMPMemo20" Left="278,4" Top="119" Width="192" Height="17" DisplayFormat.DecimalSeparator="," TruncOutboundText="False" Text="BENDAHARA PENERIMAAN"/>
+      <TfrxDMPMemoView Name="DMPMemo21" Left="278,4" Top="204" Width="96" Height="17" DisplayFormat.DecimalSeparator="," TruncOutboundText="False" Text="WARNINGSIH"/>
+      <TfrxDMPMemoView Name="DMPMemo23" Left="278,4" Top="221" Width="240" Height="17" DisplayFormat.DecimalSeparator="," TruncOutboundText="False" Text="-------------------------"/>
+      <TfrxDMPMemoView Name="DMPMemo18" Left="0" Top="238" Width="220,8" Height="17" DisplayFormat.DecimalSeparator="," TruncOutboundText="False" Text="NIP. 196611271993031006"/>
+      <TfrxDMPMemoView Name="DMPMemo22" Left="278,4" Top="238" Width="220,8" Height="17" DisplayFormat.DecimalSeparator="," TruncOutboundText="False" Text="NIP. 196303091987032004"/>
+      <TfrxDMPMemoView Name="DMPMemo25" Left="374,4" Top="51" Width="96" Height="17" DisplayFormat.DecimalSeparator="," HAlign="haRight" TruncOutboundText="False" Text="[SUM(&#60;frxDBDataset1.&#34;RPSet&#34;&#62;,MasterData1)]"/>
+    </TfrxFooter>
+  </TfrxDMPPage>
+</TfrxReport>

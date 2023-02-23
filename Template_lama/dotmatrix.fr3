@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TfrxReport Version="4.5" DotMatrixReport="True" IniFile="\Software\Fast Reports" PreviewOptions.Buttons="4095" PreviewOptions.Zoom="1" PrintOptions.Printer="Default" PrintOptions.PrintOnSheet="0" ReportOptions.CreateDate="40614,3563290278" ReportOptions.Description.Text="" ReportOptions.LastChange="40651,823308912" ScriptLanguage="PascalScript" ScriptText.Text="procedure DMPMemo3OnBeforePrint(Sender: TfrxComponent);&#13;&#10;begin&#13;&#10;                                                                                                                   &#13;&#10;end;&#13;&#10;&#13;&#10;procedure MasterData1OnAfterCalcHeight(Sender: TfrxComponent);&#13;&#10;begin&#13;&#10;                              &#13;&#10;end;&#13;&#10;&#13;&#10;begin&#13;&#10;&#13;&#10;end." StoreInDFM="False" PropData="044C656674025803546F700389000844617461736574730100095661726961626C65730100055374796C650100">
+  <TfrxDataPage Name="Data" Height="1000" Left="0" Top="0" Width="1000"/>
+  <TfrxDMPPage Name="Page1" PaperWidth="203,19986877" PaperHeight="139,43532661" PaperSize="108" LeftMargin="0" RightMargin="0" TopMargin="0" BottomMargin="0" ColumnWidth="0" ColumnPositions.Text="" HGuides.Text="" VGuides.Text="" FontStyle="0">
+    <TfrxMasterData Name="MasterData1" Height="459" Left="0" Top="17" Width="768,000000012278" ColumnWidth="0" ColumnGap="0" RowCount="2">
+      <TfrxDMPMemoView Name="DMPMemo1" Left="38,4" Top="17" Width="96" Height="17" DisplayFormat.DecimalSeparator="," TruncOutboundText="False" Text="a"/>
+    </TfrxMasterData>
+  </TfrxDMPPage>
+</TfrxReport>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TfrxReport Version="4.5" DotMatrixReport="True" IniFile="\Software\Fast Reports" PreviewOptions.Buttons="4095" PreviewOptions.Zoom="1" PrintOptions.Printer="Default" PrintOptions.PrintOnSheet="0" ReportOptions.CreateDate="41291.6141569444" ReportOptions.Description.Text="" ReportOptions.LastChange="41292.6328331366" ScriptLanguage="PascalScript" ScriptText.Text="begin&#13;&#10;&#13;&#10;end." PropData="044C656674023003546F700398000844617461736574730100095661726961626C65730100055374796C650100">
+  <TfrxDataPage Name="Data" Height="1000" Left="0" Top="0" Width="1000"/>
+  <TfrxDMPPage Name="Page1" PaperWidth="322.57979167" PaperHeight="224.89568809" PaperSize="256" LeftMargin="2.53999835958439" RightMargin="2.53999835958439" TopMargin="4.49791376176403" BottomMargin="4.49791376176403" ColumnWidth="0" ColumnPositions.Text="" HGuides.Text="" VGuides.Text="" FontStyle="0">
+    <TfrxDMPMemoView Name="DMPMemo1" Left="0" Top="0" Width="1200" Height="17" DisplayFormat.DecimalSeparator="." TruncOutboundText="False" Text="------------------------------------------------------------------------------------------------------------------------------------"/>
+    <TfrxDMPMemoView Name="DMPMemo2" Left="0" Top="17" Width="211.2" Height="34" DisplayFormat.DecimalSeparator="." TruncOutboundText="False" Text="DINAS PAJAK DAERAH DAN&#13;&#10; PENGELOLAAN KEUANGAN"/>
+    <TfrxDMPMemoView Name="DMPMemo3" Left="508.8" Top="17" Width="384" Height="85" DisplayFormat.DecimalSeparator="." TruncOutboundText="False" Text="DAFTAR KARTU DATA PAJAK REKLAME&#13;&#10;TAHUN : 2012 BULAN : 00&#13;&#10;TGL. ENTRY SPT : 5/12/12&#13;&#10;DENGAN CARA : TETAP/T/OFFICIAL ASSESMENT"/>
+    <TfrxDMPMemoView Name="DMPMemo4" Left="1113.6" Top="17" Width="67.2" Height="17" DisplayFormat.DecimalSeparator="." TruncOutboundText="False" Text="HAL : 1"/>
+    <TfrxDMPMemoView Name="DMPMemo5" Left="0" Top="102" Width="1200" Height="17" DisplayFormat.DecimalSeparator="." TruncOutboundText="False" Text="------------------------------------------------------------------------------------------------------------------------------------"/>
+    <TfrxDMPMemoView Name="DMPMemo6" Left="0" Top="119" Width="96" Height="17" DisplayFormat.DecimalSeparator="." TruncOutboundText="False" Text="NO. NO.POK"/>
+    <TfrxDMPMemoView Name="DMPMemo7" Left="201.6" Top="119" Width="153.6" Height="17" DisplayFormat.DecimalSeparator="." TruncOutboundText="False" Text="NAMA WAJIB PAJAK"/>
+    <TfrxDMPMemoView Name="DMPMemo8" Left="432" Top="119" Width="57.6" Height="17" DisplayFormat.DecimalSeparator="." TruncOutboundText="False" Text="LOKASI"/>
+    <TfrxDMPMemoView Name="DMPMemo9" Left="518.4" Top="119" Width="336" Height="17" DisplayFormat.DecimalSeparator="." TruncOutboundText="False" Text="JREK WKT KA LS FJ TS SP PANJG LEBAR"/>
+    <TfrxDMPMemoView Name="DMPMemo10" Left="873.6" Top="119" Width="96" Height="17" DisplayFormat.DecimalSeparator="." TruncOutboundText="False" Text="NITI INDEX"/>
+    <TfrxDMPMemoView Name="DMPMemo11" Left="998.4" Top="119" Width="115.2" Height="34" DisplayFormat.DecimalSeparator="." TruncOutboundText="False" Text="BIAYA HG.DSR&#13;&#10;    TH-PAJAK"/>
+    <TfrxDMPMemoView Name="DMPMemo12" Left="1152" Top="119" Width="48" Height="17" DisplayFormat.DecimalSeparator="." TruncOutboundText="False" Text="PAJAK"/>
+    <TfrxDMPMemoView Name="DMPMemo13" Left="0" Top="153" Width="1200" Height="17" DisplayFormat.DecimalSeparator="." TruncOutboundText="False" Text="------------------------------------------------------------------------------------------------------------------------------------"/>
+    <TfrxDMPMemoView Name="DMPMemo14" Left="0" Top="289" Width="1200" Height="17" DisplayFormat.DecimalSeparator="." TruncOutboundText="False" Text="------------------------------------------------------------------------------------------------------------------------------------"/>
+    <TfrxDMPMemoView Name="DMPMemo15" Left="96" Top="374" Width="288" Height="170" DisplayFormat.DecimalSeparator="." TruncOutboundText="False" Text="MENGETAHUI :&#13;&#10;KA.SIE.PENDAFTARAN &#38; PENDATAAN&#13;&#10;&#13;&#10;&#13;&#10;&#13;&#10;&#13;&#10;RM KISBIYANTORO SH&#13;&#10;-------------------------&#13;&#10;NIP. 197105021992031009 "/>
+    <TfrxDMPMemoView Name="DMPMemo16" Left="412.8" Top="306" Width="48" Height="17" DisplayFormat.DecimalSeparator="." TruncOutboundText="False" Text="TOTAL"/>
+    <TfrxDMPMemoView Name="DMPMemo17" Left="633.6" Top="374" Width="230.4" Height="153" DisplayFormat.DecimalSeparator="." TruncOutboundText="False" Text="TANGGAL :&#13;&#10;PETUGAS :&#13;&#10;&#13;&#10;&#13;&#10;&#13;&#10;&#13;&#10;TUPARMAN&#13;&#10;--------------------&#13;&#10;NIP. 196903251990031003"/>
+    <TfrxDMPMemoView Name="DMPMemo18" Left="979.2" Top="306" Width="19.2" Height="17" DisplayFormat.DecimalSeparator="." TruncOutboundText="False" Text="RP"/>
+  </TfrxDMPPage>
+</TfrxReport>

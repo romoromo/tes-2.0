@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TfrxReport Version="4.5" DotMatrixReport="True" IniFile="\Software\Fast Reports" PreviewOptions.Buttons="4095" PreviewOptions.Zoom="1" PrintOptions.Printer="Default" PrintOptions.PrintOnSheet="0" ReportOptions.CreateDate="41291,5906202431" ReportOptions.Description.Text="" ReportOptions.LastChange="41291,6366280093" ScriptLanguage="PascalScript" ScriptText.Text="begin&#13;&#10;&#13;&#10;end." PropData="044C656674023003546F700398000844617461736574730100095661726961626C65730100055374796C650100">
+  <TfrxDataPage Name="Data" Height="1000" Left="0" Top="0" Width="1000"/>
+  <TfrxDMPPage Name="Page1" PaperWidth="340,35978018" PaperHeight="296,86230828" PaperSize="256" LeftMargin="2,53999835958439" RightMargin="2,53999835958439" TopMargin="4,49791376176403" BottomMargin="4,49791376176403" ColumnWidth="0" ColumnPositions.Text="" HGuides.Text="" VGuides.Text="" FontStyle="0">
+    <TfrxDMPMemoView Name="DMPMemo1" Left="-28,8" Top="34" Width="240" Height="102" DisplayFormat.DecimalSeparator="," HAlign="haRight" TruncOutboundText="False" Text="DINAS PAJAK DAERAH DAN&#13;&#10;PENGELOLAAN KEUANGAN"/>
+    <TfrxDMPMemoView Name="DMPMemo3" Left="672" Top="34" Width="201,6" Height="34" DisplayFormat.DecimalSeparator="," TruncOutboundText="False" Text="BUKU KAS UMUM HARIAN&#13;&#10;TAHUN SETOR :"/>
+    <TfrxDMPMemoView Name="DMPMemo4" Left="1248" Top="34" Width="48" Height="17" DisplayFormat.DecimalSeparator="," TruncOutboundText="False" Text="HAL.:"/>
+    <TfrxDMPMemoView Name="DMPMemo5" Left="9,6" Top="85" Width="28,8" Height="17" DisplayFormat.DecimalSeparator="," TruncOutboundText="False" Text="NO."/>
+    <TfrxDMPMemoView Name="DMPMemo6" Left="48" Top="85" Width="76,8" Height="17" DisplayFormat.DecimalSeparator="," TruncOutboundText="False" Text="TG.SETOR"/>
+    <TfrxDMPMemoView Name="DMPMemo7" Left="134,4" Top="85" Width="67,2" Height="17" DisplayFormat.DecimalSeparator="," TruncOutboundText="False" Text="NO. SSP"/>
+    <TfrxDMPMemoView Name="DMPMemo8" Left="249,6" Top="85" Width="249,6" Height="17" DisplayFormat.DecimalSeparator="," TruncOutboundText="False" Text="NAMA WAJIB PAJAK/RETRIBUSI"/>
+    <TfrxDMPMemoView Name="DMPMemo9" Left="508,8" Top="85" Width="48" Height="17" DisplayFormat.DecimalSeparator="," TruncOutboundText="False" Text="NPWPD"/>
+    <TfrxDMPMemoView Name="DMPMemo10" Left="633,6" Top="85" Width="96" Height="34" DisplayFormat.DecimalSeparator="," TruncOutboundText="False" Text="JENIS P/R&#13;&#10;REKENING"/>
+    <TfrxDMPMemoView Name="DMPMemo11" Left="777,6" Top="85" Width="67,2" Height="34" DisplayFormat.DecimalSeparator="," TruncOutboundText="False" Text="PAJAK-&#13;&#10;T.B.H."/>
+    <TfrxDMPMemoView Name="DMPMemo12" Left="960" Top="85" Width="163,2" Height="17" DisplayFormat.DecimalSeparator="," TruncOutboundText="False" Text="KE PENERIMAAN RP."/>
+    <TfrxDMPMemoView Name="DMPMemo13" Left="1132,8" Top="85" Width="134,4" Height="17" DisplayFormat.DecimalSeparator="," TruncOutboundText="False" Text="PENGELUARAN RP"/>
+    <TfrxDMPMemoView Name="DMPMemo14" Left="854,4" Top="510" Width="57,6" Height="17" DisplayFormat.DecimalSeparator="," TruncOutboundText="False" Text="TOTAL"/>
+    <TfrxDMPMemoView Name="DMPMemo15" Left="0" Top="493" Width="1593,6" Height="17" DisplayFormat.DecimalSeparator="," TruncOutboundText="False" Text="------------------------------------------------------------------------------------------------------------------------------------"/>
+    <TfrxDMPMemoView Name="DMPMemo16" Left="0" Top="561" Width="201,6" Height="85" DisplayFormat.DecimalSeparator="," TruncOutboundText="False" Text="REKAPITULASI&#13;&#10;1. SISA KAS HARI LALU&#13;&#10;2. JUMLAH PENERIMAAN&#13;&#10;3. JUMLAH PENYETORAN"/>
+    <TfrxDMPMemoView Name="DMPMemo2" Left="230,4" Top="578" Width="172,8" Height="85" DisplayFormat.DecimalSeparator="," TruncOutboundText="False" Text="RP.&#13;&#10;RP.&#13;&#10;RP.&#13;&#10;-----------------&#13;&#10;RP"/>
+    <TfrxDMPMemoView Name="DMPMemo17" Left="28,8" Top="646" Width="163,2" Height="17" DisplayFormat.DecimalSeparator="," TruncOutboundText="False" Text="SISA KAS HARI INI"/>
+    <TfrxDMPMemoView Name="DMPMemo18" Left="384" Top="663" Width="278,4" Height="34" DisplayFormat.DecimalSeparator="," HAlign="haCenter" TruncOutboundText="False" Text="KEPALA DINAS PAJAK DAERAH DAN&#13;&#10;PENGELOLAAN KEUANGAN"/>
+    <TfrxDMPMemoView Name="DMPMemo19" Left="422,4" Top="765" Width="240" Height="68" DisplayFormat.DecimalSeparator="," HAlign="haCenter" TruncOutboundText="False" Text="DRS.KADRI RENGGONO,M.SI&#13;&#10;-------------------------&#13;&#10;NIP. 196611271993031006"/>
+    <TfrxDMPMemoView Name="DMPMemo20" Left="806,4" Top="663" Width="259,2" Height="34" DisplayFormat.DecimalSeparator="," HAlign="haCenter" TruncOutboundText="False" Text="YOGYAKARTA,           2013&#13;&#10;BENDAHARA PENERIMAAN"/>
+    <TfrxDMPMemoView Name="DMPMemo21" Left="816" Top="765" Width="230,4" Height="68" DisplayFormat.DecimalSeparator="," TruncOutboundText="False" Text="WARNINGSIH&#13;&#10;---------------&#13;&#10;NIP. 196303091987032004"/>
+  </TfrxDMPPage>
+</TfrxReport>

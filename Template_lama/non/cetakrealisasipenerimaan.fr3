@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TfrxReport Version="4.5" DotMatrixReport="False" IniFile="\Software\Fast Reports" PreviewOptions.Buttons="4095" PreviewOptions.Zoom="1" PrintOptions.Printer="Default" PrintOptions.PrintOnSheet="0" ReportOptions.CreateDate="40646,4293042824" ReportOptions.Description.Text="" ReportOptions.LastChange="40653,7994064583" ScriptLanguage="PascalScript" ScriptText.Text="&#13;&#10;procedure MasterData1OnAfterCalcHeight(Sender: TfrxComponent);&#13;&#10;begin&#13;&#10;  l1.height := masterdata1.height;&#13;&#10;  l2.height := masterdata1.height;&#13;&#10;  l3.height := masterdata1.height;&#13;&#10;  l4.height := masterdata1.height;&#13;&#10;  l5.height := masterdata1.height;&#13;&#10;  l6.height := masterdata1.height;&#13;&#10;  l7.height := masterdata1.height;&#13;&#10;  l8.height := masterdata1.height;&#13;&#10;  l9.height := masterdata1.height;&#13;&#10;  l10.height := masterdata1.height;      &#13;&#10;end;&#13;&#10;&#13;&#10;begin&#13;&#10;&#13;&#10;end." StoreInDFM="False" PropData="044C656674025803546F7003890008446174617365747301010C1500000020446174615365744E616D653D2266726A6162312200010C1500000020446174615365744E616D653D2266726A6162322200010C2400000020446174615365744E616D653D22667270656E6572696D61616E7265616C69736173692200010C1400000020446174615365744E616D653D226672766172220000095661726961626C65730100055374796C650100">
+  <TfrxDataPage Name="Data" Height="1000" Left="0" Top="0" Width="1000"/>
+  <TfrxReportPage Name="Page1" Font.Charset="0" Font.Color="0" Font.Height="-15" Font.Name="Courier New" Font.Style="0" PaperWidth="377,8" PaperHeight="279,4" PaperSize="39" LeftMargin="0" RightMargin="0" TopMargin="10" BottomMargin="10" ColumnWidth="0" ColumnPositions.Text="" HGuides.Text="" VGuides.Text="">
+    <TfrxReportTitle Name="ReportTitle1" Height="73,69295" Left="0" Top="18,89765" Width="1427,906434">
+      <TfrxMemoView Name="Memo2" Left="18,47248" Top="0,779530000000001" Width="260,78757" Height="64,25201" DisplayFormat.DecimalSeparator="," Text="DINAS PENDAPATAN&#13;&#10;KAB. HULU SUNGAI UTARA&#13;&#10;Jln. A.Yani No 04, Amuntai&#13;&#10;Tlp. (0527)61056-61788"/>
+      <TfrxMemoView Name="Memo3" Align="baCenter" Left="481,512122" Top="17,67718" Width="464,88219" Height="37,7953" DisplayFormat.DecimalSeparator="," HAlign="haCenter" Text="LAPORAN REALISASI PENERIMAAN DAN PENYETORAN UANG&#13;&#10;Bulan [frvar.&#34;bulan&#34;] Tahun [frvar.&#34;tahun&#34;]"/>
+    </TfrxReportTitle>
+    <TfrxMasterData Name="MasterData1" Font.Charset="0" Font.Color="0" Font.Height="-13" Font.Name="Courier New" Font.Style="0" Height="20,77953" Left="0" ParentFont="False" Top="257,00804" Width="1427,906434" OnAfterCalcHeight="MasterData1OnAfterCalcHeight" ColumnWidth="0" ColumnGap="0" DataSetName="frpenerimaanrealisasi" RowCount="0" Stretched="True">
+      <TfrxMemoView Name="Line" Left="17,23624" Top="1" Width="26,45671" Height="18,89765" DisplayFormat.DecimalSeparator="," Text="[Line#]"/>
+      <TfrxMemoView Name="frpenerimaanrealisasirekening1" Left="206,7718" Top="1" Width="257,00804" Height="18,89765" StretchMode="smActualHeight" DataField="rekening" DataSetName="frpenerimaanrealisasi" Text="[frpenerimaanrealisasi.&#34;rekening&#34;]"/>
+      <TfrxMemoView Name="frpenerimaanrealisasikemarin" Left="475,9295" Top="0" Width="124,72449" Height="18,89765" DataSetName="frpenerimaanrealisasi" DisplayFormat.DecimalSeparator="," DisplayFormat.FormatStr="%2.n" DisplayFormat.Kind="fkNumeric" HAlign="haRight" Text="[frpenerimaanrealisasi.&#34;kemarin&#34;]"/>
+      <TfrxLineView Name="l1" Left="8,89765" Top="1" Width="0" Height="18,89765" Frame.Typ="1"/>
+      <TfrxLineView Name="l2" Left="57,03154" Top="1,77952999999997" Width="0" Height="18,89765" Frame.Typ="1"/>
+      <TfrxLineView Name="l3" Left="203,21274" Top="0" Width="0" Height="18,89765" Frame.Typ="1"/>
+      <TfrxLineView Name="l4" Left="468,59091" Top="0,77953" Width="0" Height="18,89765" Frame.Typ="1"/>
+      <TfrxLineView Name="l10" Left="1295,4261" Top="0" Width="0" Height="18,89765" Frame.Typ="1"/>
+      <TfrxLineView Name="l9" Left="1158,36302" Top="0" Width="0" Height="18,89765" Frame.Typ="1"/>
+      <TfrxLineView Name="l8" Left="1020,52041" Top="0" Width="0" Height="18,89765" Frame.Typ="1"/>
+      <TfrxLineView Name="l7" Left="882,89827" Top="0" Width="0" Height="18,89765" Frame.Typ="1"/>
+      <TfrxLineView Name="l6" Left="746,27613" Top="0" Width="0" Height="18,89765" Frame.Typ="1"/>
+      <TfrxLineView Name="l5" Left="608,21305" Top="0" Width="0" Height="18,89765" Frame.Typ="1"/>
+      <TfrxMemoView Name="frpenerimaanrealisasisekarang" Left="616,99258" Top="0" Width="120,94496" Height="18,89765" DataSetName="frpenerimaanrealisasi" DisplayFormat.DecimalSeparator="," DisplayFormat.FormatStr="%2.n" DisplayFormat.Kind="fkNumeric" HAlign="haRight" Text="[frpenerimaanrealisasi.&#34;sekarang&#34;]"/>
+      <TfrxMemoView Name="frpenerimaanrealisasisd_sekarang" Left="753,05566" Top="0" Width="124,72449" Height="18,89765" DataSetName="frpenerimaanrealisasi" DisplayFormat.DecimalSeparator="," DisplayFormat.FormatStr="%2.n" DisplayFormat.Kind="fkNumeric" HAlign="haRight" Text="[frpenerimaanrealisasi.&#34;sd_sekarang&#34;]"/>
+      <TfrxMemoView Name="Memo4" Left="889,01639" Top="0" Width="124,72449" Height="18,89765" DataSetName="frpenerimaanrealisasi" DisplayFormat.DecimalSeparator="," DisplayFormat.FormatStr="%2.n" DisplayFormat.Kind="fkNumeric" HAlign="haRight" Text="[frpenerimaanrealisasi.&#34;kemarin&#34;]"/>
+      <TfrxMemoView Name="Memo5" Left="1027,07947" Top="0" Width="120,94496" Height="18,89765" DataSetName="frpenerimaanrealisasi" DisplayFormat.DecimalSeparator="," DisplayFormat.FormatStr="%2.n" DisplayFormat.Kind="fkNumeric" HAlign="haRight" Text="[frpenerimaanrealisasi.&#34;sekarang&#34;]"/>
+      <TfrxMemoView Name="Memo7" Left="1164,14255" Top="0" Width="120,94496" Height="18,89765" DataSetName="frpenerimaanrealisasi" DisplayFormat.DecimalSeparator="," DisplayFormat.FormatStr="%2.n" DisplayFormat.Kind="fkNumeric" HAlign="haRight" Text="[frpenerimaanrealisasi.&#34;sd_sekarang&#34;]"/>
+      <TfrxMemoView Name="frpenerimaanrealisasitmrekening_kode" Left="60,5906" Top="1" Width="136,06308" Height="18,89765" DataSetName="frpenerimaanrealisasi" DisplayFormat.DecimalSeparator="," Text="[frpenerimaanrealisasi.&#34;tmrekening_kode&#34;]"/>
+    </TfrxMasterData>
+    <TfrxColumnFooter Name="ColumnFooter1" Height="3,77953" Left="0" Top="340,1577" Width="1427,906434">
+      <TfrxLineView Name="Line24" Left="9,89765" Top="1,77953" Width="1285,0402" Height="0" Frame.Typ="4"/>
+    </TfrxColumnFooter>
+    <TfrxReportSummary Name="ReportSummary1" Height="313,70099" Left="0" Top="366,61441" Width="1427,906434">
+      <TfrxMemoView Name="Memo15" Left="206,7718" Top="2" Width="257,00804" Height="18,89765" DataSetName="frpenerimaanrealisasi" DisplayFormat.DecimalSeparator="," HAlign="haCenter" Text="Jumlah"/>
+      <TfrxMemoView Name="Memo16" Left="474,9295" Top="2" Width="124,72449" Height="18,89765" DataSetName="frpenerimaanrealisasi" DisplayFormat.DecimalSeparator="," DisplayFormat.FormatStr="%2.n" DisplayFormat.Kind="fkNumeric" Font.Charset="0" Font.Color="0" Font.Height="-13" Font.Name="Courier New" Font.Style="0" HAlign="haRight" ParentFont="False" Text="[sum(&#60;frpenerimaanrealisasi.&#34;kemarin&#34;&#62;)]"/>
+      <TfrxLineView Name="Line25" Left="8,89765" Top="2" Width="0" Height="18,89765" Frame.Typ="1"/>
+      <TfrxLineView Name="Line26" Left="57,03154" Top="2,77953000000002" Width="0" Height="18,89765" Frame.Typ="1"/>
+      <TfrxLineView Name="Line27" Left="203,21274" Top="2" Width="0" Height="18,89765" Frame.Typ="1"/>
+      <TfrxLineView Name="Line28" Left="468,59091" Top="2,77953" Width="0" Height="18,89765" Frame.Typ="1"/>
+      <TfrxLineView Name="Line29" Left="1295,4261" Top="1" Width="0" Height="22,67718" Frame.Typ="1"/>
+      <TfrxLineView Name="Line30" Left="1158,36302" Top="2" Width="0" Height="18,89765" Frame.Typ="1"/>
+      <TfrxLineView Name="Line31" Left="1020,52041" Top="2" Width="0" Height="18,89765" Frame.Typ="1"/>
+      <TfrxLineView Name="Line32" Left="882,89827" Top="2" Width="0" Height="18,89765" Frame.Typ="1"/>
+      <TfrxLineView Name="Line33" Left="746,27613" Top="2" Width="0" Height="18,89765" Frame.Typ="1"/>
+      <TfrxLineView Name="Line34" Left="608,21305" Top="2" Width="0" Height="18,89765" Frame.Typ="1"/>
+      <TfrxMemoView Name="Memo17" Left="616,99258" Top="2" Width="120,94496" Height="18,89765" DataSetName="frpenerimaanrealisasi" DisplayFormat.DecimalSeparator="," DisplayFormat.FormatStr="%2.n" DisplayFormat.Kind="fkNumeric" Font.Charset="0" Font.Color="0" Font.Height="-13" Font.Name="Courier New" Font.Style="0" HAlign="haRight" ParentFont="False" Text="[sum(&#60;frpenerimaanrealisasi.&#34;sekarang&#34;&#62;)]"/>
+      <TfrxMemoView Name="Memo20" Left="752,05566" Top="2" Width="124,72449" Height="18,89765" DataSetName="frpenerimaanrealisasi" DisplayFormat.DecimalSeparator="," DisplayFormat.FormatStr="%2.n" DisplayFormat.Kind="fkNumeric" Font.Charset="0" Font.Color="0" Font.Height="-13" Font.Name="Courier New" Font.Style="0" HAlign="haRight" ParentFont="False" Text="[sum(&#60;frpenerimaanrealisasi.&#34;sd_sekarang&#34;&#62;)]"/>
+      <TfrxMemoView Name="Memo21" Left="889,01639" Top="2" Width="124,72449" Height="18,89765" DataSetName="frpenerimaanrealisasi" DisplayFormat.DecimalSeparator="," DisplayFormat.FormatStr="%2.n" DisplayFormat.Kind="fkNumeric" Font.Charset="0" Font.Color="0" Font.Height="-13" Font.Name="Courier New" Font.Style="0" HAlign="haRight" ParentFont="False" Text="[sum(&#60;frpenerimaanrealisasi.&#34;kemarin&#34;&#62;)]"/>
+      <TfrxMemoView Name="Memo22" Left="1027,07947" Top="2" Width="120,94496" Height="18,89765" DataSetName="frpenerimaanrealisasi" DisplayFormat.DecimalSeparator="," DisplayFormat.FormatStr="%2.n" DisplayFormat.Kind="fkNumeric" Font.Charset="0" Font.Color="0" Font.Height="-13" Font.Name="Courier New" Font.Style="0" HAlign="haRight" ParentFont="False" Text="[sum(&#60;frpenerimaanrealisasi.&#34;sekarang&#34;&#62;)]"/>
+      <TfrxMemoView Name="Memo23" Left="1162,14255" Top="2" Width="120,94496" Height="18,89765" DataSetName="frpenerimaanrealisasi" DisplayFormat.DecimalSeparator="," DisplayFormat.FormatStr="%2.n" DisplayFormat.Kind="fkNumeric" Font.Charset="0" Font.Color="0" Font.Height="-13" Font.Name="Courier New" Font.Style="0" HAlign="haRight" ParentFont="False" Text="[sum(&#60;frpenerimaanrealisasi.&#34;sd_sekarang&#34;&#62;)]"/>
+      <TfrxLineView Name="Line35" Left="7,89765" Top="21,89765" Width="1288,81973" Height="0" Frame.Typ="4"/>
+      <TfrxLineView Name="Line36" Left="8,89765" Top="1" Width="1285,0402" Height="0" Frame.Typ="4"/>
+      <TfrxMemoView Name="Memo13" Left="26,45671" Top="37,7953" Width="891,96908" Height="18,89765" DisplayFormat.DecimalSeparator="," Font.Charset="0" Font.Color="0" Font.Height="-15" Font.Name="Courier New" Font.Style="0" ParentFont="False" Text="Pada hari ini tanggal [frvar.&#34;tglcetak&#34;]  kas ditutup dengan sisa sebesar Rp. 0,00 ,-"/>
+      <TfrxMemoView Name="Memo14" Left="264,5671" Top="94,4882500000001" Width="396,85065" Height="200,31509" DisplayFormat.DecimalSeparator="," Font.Charset="0" Font.Color="0" Font.Height="-15" Font.Name="Courier New" Font.Style="0" HAlign="haCenter" ParentFont="False" Text="Mengetahui,&#13;&#10;[frjab1.&#34;trefpejabat_atas1&#34;]&#13;&#10;[frjab1.&#34;trefpejabat_atas2&#34;]&#13;&#10;&#13;&#10;&#13;&#10;&#13;&#10;&#13;&#10;[frjab1.&#34;trefpejabat_bawah1&#34;]&#13;&#10;[frjab1.&#34;trefpejabat_bawah2&#34;]&#13;&#10;[frjab1.&#34;trefpejabat_bawah3&#34;]&#13;&#10;[frjab1.&#34;trefpejabat_bawah4&#34;]"/>
+      <TfrxMemoView Name="Memo24" Left="850,39425" Top="75,5906" Width="359,05535" Height="196,53556" DisplayFormat.DecimalSeparator="," Font.Charset="0" Font.Color="0" Font.Height="-15" Font.Name="Courier New" Font.Style="0" HAlign="haCenter" ParentFont="False" Text="Amuntai, [frvar.&#34;tglcetak&#34;]&#13;&#10;&#13;&#10;[frjab2.&#34;trefpejabat_atas1&#34;]&#13;&#10;[frjab2.&#34;trefpejabat_atas2&#34;]&#13;&#10;&#13;&#10;&#13;&#10;&#13;&#10;&#13;&#10;[frjab2.&#34;trefpejabat_bawah1&#34;]&#13;&#10;[frjab2.&#34;trefpejabat_bawah2&#34;]&#13;&#10;[frjab2.&#34;trefpejabat_bawah3&#34;]&#13;&#10;[frjab2.&#34;trefpejabat_bawah4&#34;]"/>
+    </TfrxReportSummary>
+    <TfrxPageHeader Name="PageHeader1" Height="77,5906" Left="0" Top="117,16543" Width="1427,906434">
+      <TfrxMemoView Name="Memo6" Left="18,89765" Top="36,67718" Width="26,45671" Height="18,89765" DisplayFormat.DecimalSeparator="," Text="No."/>
+      <TfrxMemoView Name="Memo8" Left="68,14966" Top="37,67718" Width="120,94496" Height="18,89765" DisplayFormat.DecimalSeparator="," Text="Kode Rekening"/>
+      <TfrxMemoView Name="Memo9" Left="321,83488" Top="38,72441189" Width="60,47248" Height="18,89765" DisplayFormat.DecimalSeparator="," Text="Uraian"/>
+      <TfrxMemoView Name="Memo10" Left="474,81911" Top="52,67718" Width="128,50402" Height="15,11812" DisplayFormat.DecimalSeparator="," Text="S.d Bulan Lalu"/>
+      <TfrxMemoView Name="Memo11" Left="612,88219" Top="52,01577" Width="128,50402" Height="15,11812" DisplayFormat.DecimalSeparator="," HAlign="haCenter" Text="Bulan Ini"/>
+      <TfrxMemoView Name="Memo12" Left="749,94527" Top="52,01577" Width="128,50402" Height="15,11812" DisplayFormat.DecimalSeparator="," Text="S.d Bulan Ini"/>
+      <TfrxMemoView Name="Memo26" Left="553,97681" Top="23,89765" Width="230,55133" Height="18,89765" DisplayFormat.DecimalSeparator="," HAlign="haCenter" Text="Penerimaan Uang"/>
+      <TfrxMemoView Name="Memo1" Left="891,12647" Top="52,45671" Width="128,50402" Height="15,11812" DisplayFormat.DecimalSeparator="," Text="S.d Bulan Lalu"/>
+      <TfrxMemoView Name="Memo18" Left="1025,18955" Top="51,7953" Width="128,50402" Height="15,11812" DisplayFormat.DecimalSeparator="," HAlign="haCenter" Text="Bulan Ini"/>
+      <TfrxMemoView Name="Memo19" Left="1161,25263" Top="51,7953" Width="128,50402" Height="15,11812" DisplayFormat.DecimalSeparator="," Text="S.d Bulan Ini"/>
+      <TfrxMemoView Name="Memo27" Left="978,28417" Top="24,67718" Width="230,55133" Height="18,89765" DisplayFormat.DecimalSeparator="," HAlign="haCenter" Text="Penyetoran Uang"/>
+      <TfrxLineView Name="Line1" Left="8,67718" Top="19,67718" Width="0" Height="52,91342" Frame.Typ="1"/>
+      <TfrxLineView Name="Line2" Left="57,03154" Top="20,67718" Width="0" Height="52,91342" Frame.Typ="1"/>
+      <TfrxLineView Name="Line3" Left="203,21274" Top="20,67718" Width="0" Height="52,91342" Frame.Typ="1"/>
+      <TfrxLineView Name="Line4" Left="468,59091" Top="21,67718" Width="0" Height="52,91342" Frame.Typ="1"/>
+      <TfrxLineView Name="Line5" Left="882,89827" Top="21,67718" Width="0" Height="52,91342" Frame.Typ="1"/>
+      <TfrxLineView Name="Line6" Left="1296,4261" Top="21,67718" Width="0" Height="52,91342" Frame.Typ="1"/>
+      <TfrxLineView Name="Line7" Left="7,89765" Top="20,89765" Width="1288,81973" Height="0" Frame.Typ="4"/>
+      <TfrxLineView Name="Line8" Left="7,89765" Top="73,81107" Width="1288,81973" Height="0" Frame.Typ="4"/>
+      <TfrxLineView Name="Line9" Left="469,59091" Top="48,35436" Width="827,71707" Height="0" Frame.Typ="4"/>
+      <TfrxLineView Name="Line14" Left="608,21305" Top="49,13389" Width="0" Height="26,45671" Frame.Typ="1"/>
+      <TfrxLineView Name="Line15" Left="746,07143" Top="48,35436" Width="0" Height="26,45671" Frame.Typ="1"/>
+      <TfrxLineView Name="Line16" Left="1020,52041" Top="48,35436" Width="0" Height="26,45671" Frame.Typ="1"/>
+      <TfrxLineView Name="Line17" Left="1157,58349" Top="48,13389" Width="0" Height="26,45671" Frame.Typ="1"/>
+      <TfrxMemoView Name="Page" Left="1184,0402" Top="1,77953" Width="102,04731" Height="15,11812" DisplayFormat.DecimalSeparator="," HAlign="haRight" Text="Hal: [Page#]"/>
+    </TfrxPageHeader>
+  </TfrxReportPage>
+</TfrxReport>

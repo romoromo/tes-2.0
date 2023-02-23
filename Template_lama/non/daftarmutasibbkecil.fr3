@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TfrxReport Version="4.5" DotMatrixReport="False" IniFile="\Software\Fast Reports" PreviewOptions.Buttons="4095" PreviewOptions.Zoom="1" PrintOptions.Printer="Default" PrintOptions.PrintOnSheet="0" ReportOptions.CreateDate="40706,456116169" ReportOptions.Description.Text="" ReportOptions.LastChange="40706,6694147801" ScriptLanguage="PascalScript" ScriptText.Text="begin&#13;&#10;&#13;&#10;end." StoreInDFM="False" PropData="044C656674023803546F7003C60008446174617365747301010C2600000020446174615365743D226672646174612220446174615365744E616D653D226672646174612200010C2400000020446174615365743D22667273756D2220446174615365744E616D653D22667273756D2200010C2E00000020446174615365743D226672766172696162656C2220446174615365744E616D653D226672766172696162656C220000095661726961626C65730100055374796C650100">
+  <TfrxDataPage Name="Data" Height="1000" Left="0" Top="0" Width="1000"/>
+  <TfrxReportPage Name="Page1" Orientation="poLandscape" PaperWidth="355,6" PaperHeight="215,9" PaperSize="5" LeftMargin="5" RightMargin="20" TopMargin="10" BottomMargin="10" ColumnWidth="0" ColumnPositions.Text="" HGuides.Text="" VGuides.Text="">
+    <TfrxReportTitle Name="ReportTitle1" Font.Charset="1" Font.Color="0" Font.Height="-12" Font.Name="Arial" Font.Style="0" Height="60,67718" Left="0" ParentFont="False" Top="18,89765" Width="1249,512618">
+      <TfrxMemoView Name="Memo1" Align="baCenter" Left="446,012184" Top="9,10235" Width="357,48825" Height="18,89765" DisplayFormat.DecimalSeparator="," Font.Charset="1" Font.Color="0" Font.Height="-12" Font.Name="Arial" Font.Style="1" HAlign="haCenter" ParentFont="False" Text="DAFTAR MUTASI  BENDA BERHARGA (SPBB dan BPBB)"/>
+      <TfrxMemoView Name="Memo2" Align="baCenter" Left="426,512184" Top="26,10235" Width="396,48825" Height="28,77953" DisplayFormat.DecimalSeparator="," Font.Charset="1" Font.Color="0" Font.Height="-12" Font.Name="Arial" Font.Style="0" HAlign="haCenter" ParentFont="False" Text="[frvariabel.&#34;tglawal&#34;] s/d [frvariabel.&#34;tglakhir&#34;]"/>
+    </TfrxReportTitle>
+    <TfrxPageHeader Name="PageHeader1" Height="67,45671" Left="0" Top="102,04731" Width="1249,512618">
+      <TfrxLineView Name="Line1" Left="14" Top="10,95269" Width="1195" Height="0" Frame.Typ="4"/>
+      <TfrxMemoView Name="Memo3" Left="37" Top="26,95269" Width="78,48825" Height="18,89765" DisplayFormat.DecimalSeparator="," Font.Charset="1" Font.Color="0" Font.Height="-12" Font.Name="Arial" Font.Style="1" HAlign="haCenter" ParentFont="False" Text="No SPBB"/>
+      <TfrxMemoView Name="Memo4" Left="144" Top="26,95269" Width="106,74799" Height="18,89765" DisplayFormat.DecimalSeparator="," Font.Charset="1" Font.Color="0" Font.Height="-12" Font.Name="Arial" Font.Style="1" HAlign="haCenter" ParentFont="False" Text="No BPBB"/>
+      <TfrxMemoView Name="Memo5" Left="376" Top="26,95269" Width="258,33859" Height="18,89765" DisplayFormat.DecimalSeparator="," Font.Charset="1" Font.Color="0" Font.Height="-12" Font.Name="Arial" Font.Style="1" HAlign="haCenter" ParentFont="False" Text="Nama Barang Berharga"/>
+      <TfrxMemoView Name="Memo8" Left="811" Top="26,95269" Width="78,48825" Height="18,89765" DisplayFormat.DecimalSeparator="," Font.Charset="1" Font.Color="0" Font.Height="-12" Font.Name="Arial" Font.Style="1" HAlign="haCenter" ParentFont="False" Text="Jml Blok"/>
+      <TfrxLineView Name="Line3" Left="14" Top="61,95269" Width="1195" Height="0" Frame.Typ="4"/>
+      <TfrxLineView Name="Line4" Left="14" Top="10,95269" Width="0" Height="50" Frame.Typ="1"/>
+      <TfrxLineView Name="Line5" Left="138" Top="11,95269" Width="0" Height="50" Frame.Typ="1"/>
+      <TfrxLineView Name="Line6" Left="265" Top="12,95269" Width="0" Height="50" Frame.Typ="1"/>
+      <TfrxLineView Name="Line7" Left="640" Top="10,95269" Width="0" Height="50" Frame.Typ="1"/>
+      <TfrxLineView Name="Line8" Left="893" Top="11,95269" Width="0" Height="50" Frame.Typ="1"/>
+      <TfrxMemoView Name="Memo11" Left="899" Top="26,95269" Width="45,54329" Height="18,89765" DisplayFormat.DecimalSeparator="," Font.Charset="1" Font.Color="0" Font.Height="-12" Font.Name="Arial" Font.Style="1" HAlign="haCenter" ParentFont="False" Text="Isi"/>
+      <TfrxLineView Name="Line2" Left="951" Top="11,95269" Width="0" Height="50" Frame.Typ="1"/>
+      <TfrxMemoView Name="Memo14" Left="962" Top="25,95269" Width="79,55906" Height="18,89765" DisplayFormat.DecimalSeparator="," Font.Charset="1" Font.Color="0" Font.Height="-12" Font.Name="Arial" Font.Style="1" HAlign="haCenter" ParentFont="False" Text="Jml Lembar"/>
+      <TfrxLineView Name="Line9" Left="1051" Top="10,95269" Width="0" Height="50" Frame.Typ="1"/>
+      <TfrxMemoView Name="Memo17" Left="1066" Top="25,95269" Width="136,25201" Height="18,89765" DisplayFormat.DecimalSeparator="," Font.Charset="1" Font.Color="0" Font.Height="-12" Font.Name="Arial" Font.Style="1" HAlign="haCenter" ParentFont="False" Text="Jumlah Nilai (Rp)"/>
+      <TfrxLineView Name="Line10" Left="1209" Top="10,95269" Width="0" Height="50" Frame.Typ="1"/>
+      <TfrxLineView Name="Line12" Left="716" Top="11,95269" Width="0" Height="50" Frame.Typ="1"/>
+      <TfrxMemoView Name="Memo27" Left="722" Top="26,95269" Width="78,25201" Height="18,89765" DisplayFormat.DecimalSeparator="," Font.Charset="1" Font.Color="0" Font.Height="-12" Font.Name="Arial" Font.Style="1" HAlign="haCenter" ParentFont="False" Text="Nominal"/>
+      <TfrxLineView Name="Line13" Left="807" Top="10,95269" Width="0" Height="50" Frame.Typ="1"/>
+      <TfrxMemoView Name="Memo6" Left="647" Top="26,95269" Width="63,13389" Height="18,89765" DisplayFormat.DecimalSeparator="," Font.Charset="1" Font.Color="0" Font.Height="-12" Font.Name="Arial" Font.Style="1" HAlign="haCenter" ParentFont="False" Text="Kode BB"/>
+      <TfrxMemoView Name="Memo23" Left="271" Top="26,95269" Width="40,69295" Height="18,89765" DisplayFormat.DecimalSeparator="," Font.Charset="1" Font.Color="0" Font.Height="-12" Font.Name="Arial" Font.Style="1" HAlign="haCenter" ParentFont="False" Text="Dari"/>
+      <TfrxLineView Name="Line16" Left="317" Top="11,95269" Width="0" Height="50" Frame.Typ="1"/>
+      <TfrxMemoView Name="Memo24" Left="320" Top="26,95269" Width="40,69295" Height="18,89765" DisplayFormat.DecimalSeparator="," Font.Charset="1" Font.Color="0" Font.Height="-12" Font.Name="Arial" Font.Style="1" HAlign="haCenter" ParentFont="False" Text="Ke"/>
+      <TfrxLineView Name="Line17" Left="366" Top="11,95269" Width="0" Height="50" Frame.Typ="1"/>
+    </TfrxPageHeader>
+    <TfrxMasterData Name="MasterData1" Font.Charset="1" Font.Color="0" Font.Height="-12" Font.Name="Arial" Font.Style="0" Height="32,11812" Left="0" ParentFont="False" Top="287,24428" Width="1249,512618" ColumnWidth="0" ColumnGap="0" DataSet="frdata" DataSetName="frdata" RowCount="0" Stretched="True">
+      <TfrxLineView Name="Line11" Left="14" Top="28,44867" Width="1195" Height="0" Frame.Typ="4"/>
+      <TfrxMemoView Name="Memo7" Left="376" Top="4,44866999999999" Width="253,75603" Height="18,89765" DisplayFormat.DecimalSeparator="," Text="[frdata.&#34;nama&#34;]"/>
+      <TfrxMemoView Name="Memo9" Left="646" Top="4,44866999999999" Width="70,36209" Height="18,89765" DisplayFormat.DecimalSeparator="," Text="[frdata.&#34;tbendaberharga_kode&#34;]"/>
+      <TfrxMemoView Name="Memo10" Left="723" Top="4,44866999999999" Width="77,92115" Height="18,89765" DisplayFormat.DecimalSeparator="," DisplayFormat.FormatStr="%2.n" DisplayFormat.Kind="fkNumeric" HAlign="haRight" Text="[frdata.&#34;tarif&#34;]"/>
+      <TfrxMemoView Name="Memo12" Left="813" Top="4,44866999999999" Width="77,92115" Height="18,89765" DisplayFormat.DecimalSeparator="," DisplayFormat.FormatStr="%2.n" DisplayFormat.Kind="fkNumeric" HAlign="haRight" Text="[frdata.&#34;tbendaberhargatransaksi_jmlblok&#34;]"/>
+      <TfrxMemoView Name="Memo13" Left="902" Top="4,44866999999999" Width="43,90538" Height="18,89765" DisplayFormat.DecimalSeparator="," DisplayFormat.FormatStr="%2.n" DisplayFormat.Kind="fkNumeric" HAlign="haRight" Text="[frdata.&#34;isi&#34;]"/>
+      <TfrxMemoView Name="Memo15" Left="964" Top="4,44866999999999" Width="81,70068" Height="18,89765" DisplayFormat.DecimalSeparator="," DisplayFormat.FormatStr="%2.n" DisplayFormat.Kind="fkNumeric" HAlign="haRight" Text="[frdata.&#34;totallembar&#34;]"/>
+      <TfrxMemoView Name="Memo16" Left="1063" Top="4,44866999999999" Width="136,68491" Height="18,89765" DisplayFormat.DecimalSeparator="," DisplayFormat.FormatStr="%2.n" DisplayFormat.Kind="fkNumeric" Font.Charset="1" Font.Color="0" Font.Height="-12" Font.Name="Arial" Font.Style="0" HAlign="haRight" ParentFont="False" Text="[&#60;frdata.&#34;totallembar&#34;&#62; * &#60;frdata.&#34;tarif&#34;&#62;]"/>
+      <TfrxMemoView Name="Memo21" Left="16" Top="3,75572" Width="111,82684" Height="18,89765" DisplayFormat.DecimalSeparator="," Font.Charset="1" Font.Color="0" Font.Height="-12" Font.Name="Arial" Font.Style="1" HAlign="haCenter" ParentFont="False" Text="[frdata.&#34;tbendaberhargatransaksi_nopesan&#34;]"/>
+      <TfrxMemoView Name="Memo22" Left="147" Top="3,75572" Width="108,64564" Height="18,89765" StretchMode="smActualHeight" DisplayFormat.DecimalSeparator="," Font.Charset="1" Font.Color="0" Font.Height="-12" Font.Name="Arial" Font.Style="1" HAlign="haCenter" ParentFont="False" Text="[frdata.&#34;tbendaberhargatransaksi_noterima&#34;]"/>
+      <TfrxMemoView Name="Memo25" Left="275" Top="3,75572" Width="33,05504" Height="18,89765" StretchMode="smActualHeight" DisplayFormat.DecimalSeparator="," Font.Charset="1" Font.Color="0" Font.Height="-12" Font.Name="Arial" Font.Style="0" HAlign="haCenter" ParentFont="False" Text="[frdata.&#34;trefsatker_kodeasal&#34;]"/>
+      <TfrxMemoView Name="Memo26" Left="322" Top="3,75572" Width="33,05504" Height="18,89765" StretchMode="smActualHeight" DisplayFormat.DecimalSeparator="," Font.Charset="1" Font.Color="0" Font.Height="-12" Font.Name="Arial" Font.Style="0" HAlign="haCenter" ParentFont="False" Text="[frdata.&#34;trefsatker_kodetujuan&#34;]"/>
+    </TfrxMasterData>
+    <TfrxGroupHeader Name="GroupHeader1" Height="32,12598425" Left="0" Top="230,55133" Width="1249,512618" Condition="frdata.&#34;tbendaberhargatransaksi_tgltransaksi&#34;">
+      <TfrxMemoView Name="Line" Left="19" Top="4,14161999999999" Width="510,37013" Height="18,89765" DisplayFormat.DecimalSeparator="," Font.Charset="1" Font.Color="0" Font.Height="-13" Font.Name="Arial" Font.Style="1" ParentFont="False" Text=" [formatdatetime('dddd',&#60;frdata.&#34;tbendaberhargatransaksi_tgltransaksi&#34;&#62;)], [frdata.&#34;tbendaberhargatransaksi_tgltransaksi&#34;]"/>
+      <TfrxLineView Name="Line14" Left="14" Top="29,44867" Width="1195" Height="0" Frame.Typ="4"/>
+    </TfrxGroupHeader>
+    <TfrxGroupFooter Name="GroupFooter1" Height="32,12598425" Left="0" Top="343,93723" Width="1249,512618">
+      <TfrxLineView Name="Line15" Left="14" Top="29,06277" Width="1195" Height="0" Frame.Typ="4"/>
+      <TfrxMemoView Name="Memo19" Left="949" Top="5,06277" Width="61,13389" Height="18,89765" DisplayFormat.DecimalSeparator="," Font.Charset="1" Font.Color="0" Font.Height="-13" Font.Name="Arial" Font.Style="1" ParentFont="False" Text="Jumlah :"/>
+      <TfrxMemoView Name="Memo20" Left="1034" Top="5,06277" Width="166,92115" Height="18,89765" DisplayFormat.DecimalSeparator="," DisplayFormat.FormatStr="%2.n" DisplayFormat.Kind="fkNumeric" Font.Charset="1" Font.Color="0" Font.Height="-12" Font.Name="Arial" Font.Style="1" HAlign="haRight" ParentFont="False" Text="[sum(&#60;frdata.&#34;totallembar&#34;&#62; * &#60;frdata.&#34;tarif&#34;&#62;)]"/>
+    </TfrxGroupFooter>
+  </TfrxReportPage>
+</TfrxReport>

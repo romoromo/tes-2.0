@@ -1,0 +1,89 @@
+BUKU MENU PENETAPAN NO 13&14(BUKU REKAP PENERIMAAN HARIAN)
+SELECT  setort.HRset,setort.BLset,setort.THset,
+  sum(CASE  WHEN setort.PEND=4 and setort.PAD=1 and setort.PJK=1 and setort.AYT=1 THEN setort.RPSSKP ELSE 0 END) AS  pajakhotel,
+  sum(CASE  WHEN setort.PEND=4 and setort.PAD=1 and setort.PJK=1 and setort.AYT=1 THEN setort.BUSKP ELSE 0 END)  AS bngdndhotel,
+  sum(CASE  WHEN setort.PEND=4 and setort.PAD=1 and setort.PJK=1 and setort.AYT=2 THEN setort.RPSSKP ELSE 0 END) AS pajakrestoran,
+  sum(CASE  WHEN setort.PEND=4 and setort.PAD=1 and setort.PJK=1 and setort.AYT=2 THEN setort.RPSSKP ELSE 0 END)  AS bngdndrestoranl,
+  sum(CASE  WHEN setort.PEND=4 and setort.PAD=1 and setort.PJK=1 and setort.AYT=3 THEN setort.RPSSKP ELSE 0 END) AS pajakhiburan,
+  sum(CASE  WHEN setort.PEND=4 and setort.PAD=1 and setort.PJK=1 and setort.AYT=3 THEN setort.RPSSKP ELSE 0 END)  AS bngdndhiburan,
+  sum(CASE  WHEN setort.PEND=4 and setort.PAD=1 and setort.PJK=1 and setort.AYT=4 THEN setort.RPSSKP ELSE 0 END) AS pajakreklame,
+  sum(CASE  WHEN setort.PEND=4 and setort.PAD=1 and setort.PJK=1 and setort.AYT=4 THEN setort.RPSSKP ELSE 0 END)  AS bngdndreklame,
+  sum(CASE  WHEN setort.PEND=4 and setort.PAD=1 and setort.PJK=1 and setort.AYT=5 THEN setort.RPSSKP ELSE 0 END) AS pajakppj,
+  sum(CASE  WHEN setort.PEND=4 and setort.PAD=1 and setort.PJK=1 and setort.AYT=5 THEN setort.RPSSKP ELSE 0 END)  AS bngdndppj,
+  sum(CASE  WHEN setort.PEND=4 and setort.PAD=1 and setort.PJK=1 and setort.AYT=7 THEN setort.RPSSKP ELSE 0 END) AS pajakparkir,
+  sum(CASE  WHEN setort.PEND=4 and setort.PAD=1 and setort.PJK=1 and setort.AYT=7 THEN setort.RPSSKP ELSE 0 END)  AS bngdndparkir,
+  sum(CASE  WHEN setort.PEND=4 and setort.PAD=2 and setort.PJK=1 and setort.AYT=1 THEN setort.RPSSKP ELSE 0 END) AS pajakpbb,
+  sum(CASE  WHEN setort.PEND=4 and setort.PAD=2 and setort.PJK=1 and setort.AYT=1 THEN setort.RPSSKP ELSE 0 END)  AS bngdndpbb,
+  sum(CASE  WHEN setort.PEND=4 and setort.PAD=1 and setort.PJK=1 and setort.AYT=11 THEN setort.RPSSKP ELSE 0 END) AS pajakbphtb,
+  sum(CASE  WHEN setort.PEND=4 and setort.PAD=1 and setort.PJK=1 and setort.AYT=11 THEN setort.RPSSKP ELSE 0 END)  AS bngdndbphtb
+  FROM setort  where setort.nopok<> 0  and setort.THset=12 and setort.BLset=12 group by setort.THset,setort.BLset,setort.HRset 
+
+BUKU MENU PENETAPAN NO 7(BUKU KAS UMUM HARIAN)
+  SELECT setora.THSET,setora.BLSET,setora.HRSET,setora.THP,setora.BLP,setora.HRP,setora.NOSSP,setora.PEND,setora.PAD,setora.PJK,setora.AYT,setora.JEN,setora.SUB,  wpr.BNAMA,wpr.GOL,wpr.NOPOK,wpr.BKEC,wpr.BKEL,  setora.RPSet  
+FROM setora  Inner Join wpr ON setora.NOPOK = wpr.NOPOK  where setora.PEND<>0  and setora.THset=12 and setora.BLset=12 and setora.HRset =28 AND setora.JEN<>0
+ORDER BY setora.PEND,setora.PAD,setora.PJK,setora.AYT,setora.JEN
+
+
+BUKU MENU PENETAPAN NO 11(BUKU pembantu PER RINCIAN OBYEK PENERIMAAN) (HOTEL)
+SELECT setort.THSET,setort.BLSET,setort.HRSET,setort.THP,setort.BLP,setort.HRP,setort.NOSSP,setort.PEND,setort.PAD,setort.PJK,setort.AYT,setort.JEN,setort.SUB,wpr.BNAMA,wpr.BAL,wpr.GOL,wpr.NOPOK,wpr.BKEC,wpr.BKEL, setort.RPSet,setort.NMSU,
+(SELECT tblrek.NMREK FROM tblrek where tblrek.PEND=setort.PEND and tblrek.PAD=setort.PAD and tblrek.PJK=setort.PJK and tblrek.AYT=setort.AYT and tblrek.JEN=setort.JEN ) as NMREK,setort.* 
+FROM setort  Inner Join wpr ON setort.NOPOK = wpr.NOPOK  where setort.PEND<>0  and setort.THP=12 and setort.BLP=12 AND setort.THSET=12 AND setort.BLSET=12 
+AND setort.PEND=4 and setort.PAD=1 and setort.PJK=1 and setort.AYT=1 and setort.JEN=0
+ORDER BY setort.THSET,setort.BLSET,setort.HRSET,setort.PEND
+SUM==================================
+  SELECT 
+  sum(CASE  WHEN  setort.BLSET=12   THEN setort.RPSet ELSE 0 END) AS bulanini,
+  sum(CASE  WHEN  setort.BLSET<12   THEN setort.RPSet ELSE 0 END) AS sd_bulanlalu,
+  sum(CASE  WHEN  setort.BLSET<=12   THEN setort.RPSet ELSE 0 END) AS sd_bulanini
+FROM setort   where setort.PEND<>0  and setort.THP=12 and  setort.THSET=12  
+AND setort.PEND=4 and setort.PAD=1 and setort.PJK=1 and setort.AYT=1 and setort.JEN=0
+ORDER BY setort.THSET,setort.BLSET,setort.HRSET,setort.PEND
+
+
+
+
+MENU ENTRY SETORAN (DAFTAR SETORAN HARIAN)
+  SELECT setora.THSET,setora.BLSET,setora.HRSET,setora.THP,setora.BLP,setora.HRP,setora.NOSSP,setora.PEND,setora.PAD,setora.PJK,setora.AYT,setora.JEN,setora.SUB,wpr.BNAMA,wpr.BAL,wpr.GOL,wpr.NOPOK,wpr.BKEC,wpr.BKEL, setora.RPSet,setora.NMSU,
+(SELECT tblrek.NMREK FROM tblrek where tblrek.PEND=setora.PEND and tblrek.PAD=setora.PAD and tblrek.PJK=setora.PJK and    tblrek.AYT=setora.AYT and tblrek.JEN=setora.JEN ) as NMREK  
+FROM setora  Inner Join wpr ON setora.NOPOK = wpr.NOPOK  where setora.PEND<>0  and setora.THset=12 and setora.BLset=12 and setora.HRset =28 AND setora.JEN<>0
+ORDER BY setora.PEND,setora.PAD,setora.PJK,setora.AYT,setora.JEN
+
+MENU ENTRY SETORAN 14(LAPORAN SETORAN KE BANK BENDAHARA PENERIMAAN)
+ SELECT setora.PEND,setora.PAD,setora.PJK,setora.AYT,setora.JEN,
+sum(CASE  WHEN HRSET=28 THEN setora.RPSet ELSE 0 END)  AS HARI_INI,
+sum(CASE  WHEN HRSET<28 THEN setora.RPSet ELSE 0 END)  AS SD_HARILALU,
+  sum(CASE  WHEN HRSET<=28 THEN setora.RPSet ELSE 0 END) AS SD_HARIINI,
+(SELECT tblrek.NMREK FROM tblrek where tblrek.PEND=setora.PEND and tblrek.PAD=setora.PAD and tblrek.PJK=setora.PJK and    tblrek.AYT=setora.AYT and tblrek.JEN=setora.JEN ) as NMREK  
+FROM setora  Inner Join wpr ON setora.NOPOK = wpr.NOPOK  where setora.THset=12 and setora.BLset=12
+AND setora.JEN=0
+GROUP BY setora.PEND,setora.PAD,setora.PJK,setora.AYT,setora.JEN
+ORDER BY setora.PEND,setora.PAD,setora.PJK,setora.AYT,setora.JEN
+
+BUKU MENU PENETAPAN NO 4(LAMPIRAN LAPORAN HARIAN) (KURANG BEBERAPA AYAT YANG JENISNYA 00)
+  SELECT setora.PEND,setora.PAD,setora.PJK,setora.AYT,setora.JEN,
+(SELECT tblrek.NMREK FROM tblrek where tblrek.PEND=setora.PEND and tblrek.PAD=setora.PAD and tblrek.PJK=setora.PJK and tblrek.AYT=setora.AYT and tblrek.JEN=setora.JEN ) as NMREK,
+sum(CASE  WHEN HRSET=28 THEN setora.RPSet ELSE 0 END)  AS HARI_INI,
+sum(CASE  WHEN HRSET<28 THEN setora.RPSet ELSE 0 END)  AS SD_HARILALU,
+  sum(CASE  WHEN HRSET<=28 THEN setora.RPSet ELSE 0 END) AS SD_HARIINI
+FROM setora  Inner Join wpr ON setora.NOPOK = wpr.NOPOK  where setora.THset=12 and setora.BLset=12
+AND setora.JEN<>0
+GROUP BY setora.PEND,setora.PAD,setora.PJK,setora.AYT,setora.JEN
+ORDER BY setora.PEND,setora.PAD,setora.PJK,setora.AYT,setora.JEN
+
+BUKU WAJIB PAJAK DAERAH(HOTEL)
+select SPTHT.THP,SPTHT.BLP,SPTHT.HRESPT,SPTHT.BLESPT,SPTHT.THESPT,SPTHT.NOSKP,SPTHT.RPSKP,SPTHT.RPKB,SPTHT.RPSTP,SPTHT.HRESSP,SPTHT.BLESSP,SPTHT.THESSP,SPTHT.NOSSP,
+SETOR.NMSU,SETOR.RPSSKP,SETOR.RPSKB
+ from SPTHT,SETOR 
+where SPTHT.nopok=SETOR.nopok AND SPTHT.THP=SETOR.THP AND SPTHT.BLP=SETOR.BLP AND SPTHT.pend=SETOR.pend and SPTHT.pad=SETOR.pad and SPTHT.PJK=SETOR.PJK and SPTHT.ayt=SETOR.ayt AND
+ SPTHT.nopok=4680 and SPTHT.thp=12 and SPTHT.pend=4 and SPTHT.pad=1 and SPTHT.PJK=1 and SPTHT.ayt=1 AND NMSU='SPTPD'
+ORDER BY SPTHT.THP,SPTHT.BLP,SPTHT.HRP
+
+LAPORAN REALISASI PENERIMAAN BKP
+SELECT setora.PEND,setora.PAD,setora.PJK,setora.AYT,setora.JEN,
+sum(CASE  WHEN HRSET=28 THEN setora.RPSet ELSE 0 END)  AS HARI_INI,
+sum(CASE  WHEN HRSET<28 THEN setora.RPSet ELSE 0 END)  AS SD_HARILALU,
+  sum(CASE  WHEN HRSET<=28 THEN setora.RPSet ELSE 0 END) AS SD_HARIINI
+FROM setora  Inner Join wpr ON setora.NOPOK = wpr.NOPOK  where setora.THset=12 and setora.BLset=12
+AND setora.JEN=0
+GROUP BY setora.PEND,setora.PAD,setora.PJK,setora.AYT,setora.JEN
+ORDER BY setora.PEND,setora.PAD,setora.PJK,setora.AYT,setora.JEN

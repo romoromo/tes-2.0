@@ -1,0 +1,11 @@
+1. daftar induk wajib pajak = belum ada npwp
+2. daftar kartu data pajak reklame= tanggal yang digunakan tanggal apa???
+3, skpd nihil gak bisa group, penggunaan group tidak sesuai hasilnya
+4. daftar SKPD -> pencarian thp error
+
+5.jabong, nanti di coba OK
+
+JUMREK,THASPT,BLASPT,HRASPT,ISIRE,LOKASI,LEBAR,PANJANG,TLPC,RPANG1,RPANG2,RPANG5
+
+IZIN_PENYELENGGARAAN_REKLAME
+
